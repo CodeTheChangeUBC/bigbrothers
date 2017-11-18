@@ -15,127 +15,97 @@ from contextlib import closing
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
 import time
-from fastkml import kml
+import simplekml
 
-k = kml.KML()
-ns = '{http://www.opengis.net/kml/2.2}'
-# Create a KML Document and add it to the KML root object
-d = kml.Document(ns, 'docid', 'doc name', 'doc description')
-k.append(d)
-
-# Create a KML Folder and add it to the Document
-f = kml.Folder(ns, 'fid', 'f name', 'f description')
-d.append(f)
-
-# Create a KML Folder and nest it in the first Folder
-nf = kml.Folder(ns, 'nested-fid', 'nested f name', 'nested f description')
-f.append(nf)
-
-# Create a second KML Folder within the Document
-f2 = kml.Folder(ns, 'id2', 'name2', 'description2')
-d.append(f2)
-
-# Create a Placemark with a simple polygon geometry and add it to the
-# second folder of the Document
-p = kml.Placemark(ns, 'id', 'name', 'description')
-f2.append(p)
-
-# Print out the KML Object as a string
-print(k.to_string(prettyprint=True))
+kml = simplekml.Kml()
 
 #Google API information
-googleApiKey = "AIzaSyCr90UZMD3fl6SLE7cHIDvWF4yofQdWIgk"
+googleApiKey = "AIzaSyAOyu_oSTIsdrxgYm6Fby0DckoZGMdJECA"
 gmaps = googlemaps.Client(key=googleApiKey)
 
 list = []
 
 #Salvation Army Thrift Store - done
 try:
-	print("Salvation Army")
-	url1 = "https://www.thriftstore.ca/british-columbia/drop-bin-locations"
-	r1 = requests.get(url1)
-	print("Salvation army request")
-	soup1 = BeautifulSoup(r1.content,"lxml")
-	filtered1 = soup1.find_all("tr")
+    print("Salvation Army")
+    url1 = "https://www.thriftstore.ca/british-columbia/drop-bin-locations"
+    r1 = requests.get(url1)
+    print("Salvation army request")
+    soup1 = BeautifulSoup(r1.content,"lxml")
+    filtered1 = soup1.find_all("tr")
 
-	for td in filtered1:
-		inter = td.find_all("span")
-		count = 0
-		addBin = Bin("", "", "", "", "", "")
-		while (count <= 3):
-			value = inter[count].text.strip()
-			if(count == 0):
-				addBin.name = value
-			elif (count == 1):
-				addBin.company = value
-			elif (count == 2):
-				addBin.address = value
-			else:
-				addBin.city = value
-			count += 1
-		list.append(addBin)
+    for td in filtered1:
+        inter = td.find_all("span")
+        count = 0
+        addBin = Bin("", "", "", "", "", "")
+        while (count <= 3):
+            value = inter[count].text.strip()
+            if(count == 0):
+                addBin.name = value
+            elif (count == 1):
+                addBin.company = value
+            elif (count == 2):
+                addBin.address = value
+            else:
+                addBin.city = value
+            count += 1
+        list.append(addBin)
 except requests.exceptions.RequestException as e:
-	print (e)
+    print (e)
 
 #WORKING
 #Inclusion BC & CPABC Clothing
-
+'''
 #InclusionBC
 try:
-	url2 = "http://www.google.com/maps/d/kml?mid=1kqVfqYiPtnqrO8L5zC_yVkAiwB0&forcekml=1"
-	r2 = requests.get(url2)
-	soup2 = BeautifulSoup(r2.content,"lxml")
-	filtered2 = soup2.find_all("placemark")
-	print("Inclusion BC")
-	for item in filtered2:
-		addBin = Bin("", "", "", "", "", "")
-		addBin.address = item.find_all("name")[0].text.strip()
-		addBin.coordinate = item.find_all("coordinates")[0].text.strip()
-		addBin.company = "Inclusion BC"
-		list.append(addBin)
+    url2 = "http://www.google.com/maps/d/kml?mid=1kqVfqYiPtnqrO8L5zC_yVkAiwB0&forcekml=1"
+    r2 = requests.get(url2)
+    soup2 = BeautifulSoup(r2.content,"lxml")
+    filtered2 = soup2.find_all("placemark")
+    print("Inclusion BC")
+    for item in filtered2:
+        addBin = Bin("", "", "", "", "", "")
+        addBin.address = item.find_all("name")[0].text.strip()
+        addBin.coordinate = item.find_all("coordinates")[0].text.strip()
+        addBin.company = "Inclusion BC"
+        list.append(addBin)
 except requests.exceptions.RequestException as e:
-	print (e)
+    print (e)
 
-
-#InclusionBC
+#Cerebral Palsy
 try:
-	url3 = "https://www.google.com/maps/d/kml?mid=1ekVOoKgoAW2vIjiDh3DmP4OU04g&forcekml=1"
-	r3 = requests.get(url3)
-	soup3 = BeautifulSoup(r3.content,"lxml")
-	filtered3 = soup3.find_all("placemark")
-	print("Cerebral Palsy Association of British Columbia")
-	for item in filtered3:
-		addBin = Bin("", "", "", "", "", "")
-		addBin.address = item.find_all("name")[0].text.strip()
-		addBin.coordinate = item.find_all("coordinates")[0].text.strip()
-		addBin.company = "Cerebral Palsy Association of British Columbia"
-		list.append(addBin)
+    url3 = "https://www.google.com/maps/d/kml?mid=1ekVOoKgoAW2vIjiDh3DmP4OU04g&forcekml=1"
+    r3 = requests.get(url3)
+    soup3 = BeautifulSoup(r3.content,"lxml")
+    filtered3 = soup3.find_all("placemark")
+    print("Cerebral Palsy Association of British Columbia")
+    for item in filtered3:
+        addBin = Bin("", "", "", "", "", "")
+        addBin.address = item.find_all("name")[0].text.strip()
+        addBin.coordinate = item.find_all("coordinates")[0].text.strip()
+        addBin.company = "Cerebral Palsy Association of British Columbia"
+        list.append(addBin)
 except requests.exceptions.RequestException as e:
-	print (e)
-
-
-for item in list:
-	if item.address:
-		list.remove(item)
+    print (e)
 
 #WORKING
 #Diabetes Canada
 try:
-	print("Diabetes Canada")
-	url1 = "http://www.diabetes.ca/dropBoxes/phpsqlsearch_genxml.php?&lat=49.2057&lng=-122.9110&radius=50"
-	r1 = requests.get(url1)
+    print("Diabetes Canada")
+    url1 = "http://www.diabetes.ca/dropBoxes/phpsqlsearch_genxml.php?&lat=49.2057&lng=-122.9110&radius=50"
+    r1 = requests.get(url1)
 
-	soup1  = BeautifulSoup(r1.content,"lxml")
+    soup1  = BeautifulSoup(r1.content,"lxml")
 
-	filtered = soup1.find_all("marker",{"type":"Drop Box"})
+    filtered = soup1.find_all("marker",{"type":"Drop Box"})
 
-	for item in filtered:
-		addBin = Bin("", "", "", "", "", "")
-		addBin.address = item['address']
-		addBin.company = "Diabetes Canada"
-		list.append(addBin)
+    for item in filtered:
+        addBin = Bin("", "", "", "", "", "")
+        addBin.address = item['address']
+        addBin.company = "Diabetes Canada"
+        list.append(addBin)
 except requests.exceptions.RequestException as e:
-	print (e)
+    print (e)
 
 
 #WORKING
@@ -149,23 +119,16 @@ html = browser.page_source
 soup = BeautifulSoup(html, 'lxml')
 filtered1 = soup.find_all("div", {"class":"location_secondary"})
 for item in filtered1:
-	#print(item)
-	item_street = item.find_all("span", {"class": "slp_result_street"})
-	item_city = item.find_all("span", {"class": "slp_result_citystatezip"})
-	addBin = Bin("", "", "", "", "", "")
-	addBin.address = item_street[0].text.strip() + " " +item_city[0].text.strip()
-	addBin.company = "Big Brothers"
-	list.append(addBin)
+    #print(item)
+    item_street = item.find_all("span", {"class": "slp_result_street"})
+    item_city = item.find_all("span", {"class": "slp_result_citystatezip"})
+    addBin = Bin("", "", "", "", "", "")
+    addBin.address = item_street[0].text.strip() + " " +item_city[0].text.strip()
+    addBin.company = "Big Brothers"
+    list.append(addBin)
 
 browser.close()
 
-'''
-Traceback (most recent call last):
-  File "scraper.py", line 193, in <module>
-    item.coordinate = geocode_result[0]['geometry']['location']
-IndexError: list index out of range
-'''
-'''
 #Develop BC
 print("develop bc")
 
@@ -196,26 +159,37 @@ for result in individual_results:
            address += ", "
 
 print(address)
+
 '''
+print("getting here")
 
 #geoencoding
 for item in list:
-	if item.getCoordinate():
-		coordinateRaw = item.getCoordinate()
-		print(coordinateRaw)
-		coordinate = coordinateRaw.split(",")
-		reverse_geocode_result = gmaps.reverse_geocode((coordinate[1],coordinate[0]))
-		print(item.getCompany())
-		print(reverse_geocode_result[0]['formatted_address'])
+    if item.getCoordinate():
+        coordinateRaw = item.getCoordinate()
+        coordinate = coordinateRaw.split(",")
+        reverse_geocode_result = gmaps.reverse_geocode((coordinate[1],coordinate[0]))
+        item.coordinate = str(reverse_geocode_result[0]['geometry']['location']['lng']) + ", " + str(reverse_geocode_result[0]['geometry']['location']['lat']) + ", 0"
+        item.address= reverse_geocode_result[0]['formatted_address'] #save the returned address
+        kml.newpoint(name=item.getCompany(), coords=[(item.getCoordinate())])  # lon, lat, optional height
+        print(item.getCompany())
+        print(item.getAddress())
+        print(item.getCoordinate())
+
+    elif item.getAddress():
+        address = item.getAddress()
+        geocode_result = gmaps.geocode(address)
+        item.coordinate = str(geocode_result[0]['geometry']['location']['lng'])  + ", " + str(geocode_result[0]['geometry']['location']['lat']) + ", 0"
+        item.address = geocode_result[0]['formatted_address'] #save the returned address
+        kml.newpoint(name=item.getCompany(), coords=[(item.getCoordinate())])  # lon, lat, optional height
+        print(item.getCompany())
+        print(item.getAddress())
+        print(item.getCoordinate())
 
 
-	elif item.getAddress():
-		address = item.getAddress()
-		geocode_result = gmaps.geocode(address)
-		item.coordinate = geocode_result[0]['geometry']['location']
-		print(item.getCompany())
-		print(geocode_result[0]['formatted_address'])
 
+print(kml)
+kml.save("plot.kml")
 
-
-
+#for item in list:
+  #  print(item)
