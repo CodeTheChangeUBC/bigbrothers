@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Street View side-by-side</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map  {
+        float: left;
+        height: 100%;
+        width: 50%;
+      }
+      #pano, #capture{
+        float: right;
+        height: 50%;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="pano"></div>
+    <script>
+  var src = 'https://raw.githubusercontent.com/anthonycsli123/testingv2/master/testingplot.kml?dummy=' + (new Date()).getTime();
+      function initialize() {
+        var fenway = {lat: 42.345573, lng: -71.098326};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: new google.maps.LatLng(-19.257753, 146.823688),
+          zoom: 14,
+          mapTypeId: 'terrain'
+        });
+
+        var kmlLayer = new google.maps.KmlLayer(src, {
+          suppressInfoWindows: false,
+          preserveViewport: false,
+          map: map
+        });
+}
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?AIzaSyAOyu_oSTIsdrxgYm6Fby0DckoZGMdJECA&callback=initialize">
+    </script>
+  </body>
+</html>

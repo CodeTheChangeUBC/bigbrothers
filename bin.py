@@ -9,7 +9,7 @@ class Bin:
 
     def __init__(self, company, address, city, postalCode, coordinate, name):
         self.company = company
-        self.address = address
+        self.address = address + self.city + "British Columbia, Canada"
         self.city = city
         self.postalCode = postalCode
         self.coordinate = coordinate
@@ -21,7 +21,7 @@ class Bin:
     def getCompany(self):
         return self.company
     def getAddress(self):
-        return (self.address + self.city + "British Columbia, Canada")
+        return self.address
     def getCity(self):
         return self.city
     def getPostalCode(self):
@@ -31,7 +31,7 @@ class Bin:
     def getName(self):
         return self.names
     def getContents(self):
-        return self.company + self.address + self.city + self.postalCode + self.coordinate + self.name
+        return  self.name + " " + self.address + " " + self.postalCode
 
     def setCompany(company):
         self.company = companys
