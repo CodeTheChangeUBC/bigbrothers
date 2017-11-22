@@ -16,7 +16,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
 import time
 from fastkml import kml
-
+'''
 k = kml.KML()
 ns = '{http://www.opengis.net/kml/2.2}'
 # Create a KML Document and add it to the KML root object
@@ -42,13 +42,14 @@ f2.append(p)
 
 # Print out the KML Object as a string
 print(k.to_string(prettyprint=True))
+'''
 
 #Google API information
 googleApiKey = "AIzaSyCr90UZMD3fl6SLE7cHIDvWF4yofQdWIgk"
 gmaps = googlemaps.Client(key=googleApiKey)
 
 list = []
-
+'''
 #Salvation Army Thrift Store - done
 print("Salvation Army")
 url1 = "https://www.thriftstore.ca/british-columbia/drop-bin-locations"
@@ -73,8 +74,8 @@ for td in filtered1:
 			addBin.city = value
 		count += 1
 	list.append(addBin)
-
-
+'''
+'''
 #WORKING
 #Inclusion BC & CPABC Clothing
 print("Inclusion BC and CPABC Clothing")
@@ -109,7 +110,8 @@ for item in filtered3:
 for item in list:
 	if item.address:
 		list.remove(item)
-
+'''
+'''
 #WORKING
 #Diabetes Canada
 print("Diabetes Canada")
@@ -125,7 +127,8 @@ for item in filtered:
 	addBin.address = item['address']
 	addBin.company = "Diabetes Canada"
 	list.append(addBin)
-
+'''
+'''
 #WORKING
 #Big Brothers
 print("Big Brothers")
@@ -146,51 +149,59 @@ for item in filtered1:
 	list.append(addBin)
 
 browser.close()
-
+'''
 '''
 Traceback (most recent call last):
   File "scraper.py", line 193, in <module>
     item.coordinate = geocode_result[0]['geometry']['location']
 IndexError: list index out of range
 '''
-'''
+
 #Develop BC
 print("develop bc")
 
-url = "http://www.develop.bc.ca/donate/"
-with closing(PhantomJS()) as browser:
-   browser.get(url)
-   html = browser.page_source
 #r = urllib2.urlopen("http://www.bcchauxiliary.com/our-businesses/clothing-donation-bin-program/")
 #html = r.read()
 
 #gmaps = googlemaps.Client(key="AIzaSyDqGPoS9GUio0FZndRTdnvNDFIatMHGeus")
 
-url = "http://www.develop.bc.ca/donate/"
+url = "http://www.develop.bc.ca/find-a-clothing-bin/"
 browser = webdriver.PhantomJS()
 browser.get(url)
 time.sleep(1)
 html = browser.page_source
 
 soup = BeautifulSoup(html, "lxml")
-individual_results = soup.find_all("div", {"class":"results_wrapper"})
+individual_results = soup.find_all("script")
 
 for result in individual_results:
-   address = ""
-   address_components = result.find_all("span", {"class":"slp_result_address"})
-   for address_component in address_components:
-       address += address_component.get_text()
-       if('slp_result_citystatezip' in address_component.get("class")):
-           address += ", "
+   resultString = result.string
+   #print(resultString)
+   search = 'mapData'
+   if resultString is not None:
+   	if search in resultString:
+   		addressesString = resultString
+startString = addressesString.find('[')
+endString = addressesString.rfind(']')
+jsonString = addressesString[startString:endString +1]
 
-print(address)
-'''
+json_1 = json.loads(jsonString)
+
+for j in json_1:
+	addBin = Bin("", "", "", "", "", "")
+	splitted = j["location"]["address"].split(",")
+
+	addBin.address = splitted[0]
+	addBin.city = splitted[1]
+	addBin.company = "Develop BC"
+	list.append(addBin)
+
+
 
 #geoencoding
 for item in list:
 	if item.getCoordinate():
 		coordinateRaw = item.getCoordinate()
-		print(coordinateRaw)
 		coordinate = coordinateRaw.split(",")
 		reverse_geocode_result = gmaps.reverse_geocode((coordinate[1],coordinate[0]))
 		print(item.getCompany())
