@@ -162,26 +162,38 @@ geocode("BigBrothers", bigbrothers)
 browser.close()
 
 # Develop BC
-print("develop bc broken af")
-'''
-url = "http://www.develop.bc.ca/donate/"
+print("develop bc")
+
+url = "http://www.develop.bc.ca/find-a-clothing-bin/"
 browser = webdriver.PhantomJS()
 browser.get(url)
 time.sleep(1)
 html = browser.page_source
+
 soup = BeautifulSoup(html, "lxml")
-print(soup)
-individual_results = soup.find_all("div", {"class": "results_wrapper"})
-print(individual_results)
+individual_results = soup.find_all("script")
+
 for result in individual_results:
-    address = ""
-    address_components = result.find_all(
-        "span", {"class": "slp_result_address"})
-    for address_component in address_components:
-        address += address_component.get_text()
-        if('slp_result_citystatezip' in address_component.get("class")):
-            address += ", "
-    print(address)
-'''
+   resultString = result.string
+   #print(resultString)
+   search = 'mapData'
+   if resultString is not None:
+    if search in resultString:
+        addressesString = resultString
+startString = addressesString.find('[')
+endString = addressesString.rfind(']')
+jsonString = addressesString[startString:endString +1]
+
+json_1 = json.loads(jsonString)
+
+for j in json_1:
+    addBin = Bin("", "", "", "", "", "")
+    splitted = j["location"]["address"].split(",")
+
+    addBin.address = splitted[0]
+    addBin.city = splitted[1]
+    addBin.company = "Develop BC"
+    list.append(addBin)
+
 for item in list:
     print(item)
