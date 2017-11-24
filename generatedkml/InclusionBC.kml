@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_44">
+        <Placemark id="feat_45">
+            <name>Inclusion BC</name>
+            <description> 7025 Macdonald St, Vancouver, BC V6N 1G2, Canada </description>
+            <Point id="geom_42">
+                <coordinates>-123.1684546, 49.2216976, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_46">
+            <name>Inclusion BC</name>
+            <description> 1796 Nanaimo St, Vancouver, BC V5M 1C5, Canada </description>
+            <Point id="geom_43">
+                <coordinates>-123.0562864, 49.2686838, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_47">
+            <name>Inclusion BC</name>
+            <description> 2698 E 22nd Ave, Vancouver, BC V5M 2X7, Canada </description>
+            <Point id="geom_44">
+                <coordinates>-123.0496212, 49.2505987, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_48">
+            <name>Inclusion BC</name>
+            <description> 3433 Renfrew St, Vancouver, BC V5M, Canada </description>
+            <Point id="geom_45">
+                <coordinates>-123.0443588, 49.2540262, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_49">
+            <name>Inclusion BC</name>
+            <description> 8599 Aquitania Pl, Vancouver, BC V5S 4V7, Canada </description>
+            <Point id="geom_46">
+                <coordinates>-123.0437305, 49.2065336, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_50">
+            <name>Inclusion BC</name>
+            <description> 8075 Enterprise St, Burnaby, BC V5A 1V5, Canada </description>
+            <Point id="geom_47">
+                <coordinates>-122.9291617, 49.2567603, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_51">
+            <name>Inclusion BC</name>
+            <description> 7731 Nanaimo St, Vancouver, BC V5P 4M7, Canada </description>
+            <Point id="geom_48">
+                <coordinates>-123.0597938, 49.2140461, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_52">
+            <name>Inclusion BC</name>
+            <description> 6262 Marine Dr, West Vancouver, BC V7W 1X1, Canada </description>
+            <Point id="geom_49">
+                <coordinates>-123.2778051, 49.3639686, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_53">
+            <name>Inclusion BC</name>
+            <description> 6805 Hastings St, Burnaby, BC V5B 1S7, Canada </description>
+            <Point id="geom_50">
+                <coordinates>-122.9634576, 49.2803568, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_54">
+            <name>Inclusion BC</name>
+            <description> 7508 Heather St, Vancouver, BC V6P 3P9, Canada </description>
+            <Point id="geom_51">
+                <coordinates>-123.1238986, 49.2170148, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_55">
+            <name>Inclusion BC</name>
+            <description> 4316 W 2nd Ave, Vancouver, BC V6R 1K3, Canada </description>
+            <Point id="geom_52">
+                <coordinates>-123.2034111, 49.2711542, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_56">
+            <name>Inclusion BC</name>
+            <description> 4409 Boundary Rd, Vancouver, BC V5R 2N3, Canada </description>
+            <Point id="geom_53">
+                <coordinates>-123.0238386, 49.2453446, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_57">
+            <name>Inclusion BC</name>
+            <description> 898 W Broadway, Vancouver, BC V5Z 1J8, Canada </description>
+            <Point id="geom_54">
+                <coordinates>-123.1237912, 49.2631548, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_58">
+            <name>Inclusion BC</name>
+            <description> 1180 W 57th Ave, Vancouver, BC V6P 1S5, Canada </description>
+            <Point id="geom_55">
+                <coordinates>-123.1318931, 49.21911189999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_59">
+            <name>Inclusion BC</name>
+            <description> 4580 W 10th Ave, Vancouver, BC V6R, Canada </description>
+            <Point id="geom_56">
+                <coordinates>-123.2115207, 49.2636759, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_60">
+            <name>Inclusion BC</name>
+            <description> 5898 Beatrice St, Vancouver, BC V5P 1M5, Canada </description>
+            <Point id="geom_57">
+                <coordinates>-123.0667064, 49.2306567, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_61">
+            <name>Inclusion BC</name>
+            <description> 1409 Sperling Ave, Burnaby, BC V5B 4J8, Canada </description>
+            <Point id="geom_58">
+                <coordinates>-122.964953, 49.271316, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_62">
+            <name>Inclusion BC</name>
+            <description> 14 E Royal Ave, New Westminster, BC V3L, Canada </description>
+            <Point id="geom_59">
+                <coordinates>-122.898498, 49.2127558, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_63">
+            <name>Inclusion BC</name>
+            <description> 1420 Pinetree Way, Coquitlam, BC V3E 6A3, Canada </description>
+            <Point id="geom_60">
+                <coordinates>-122.7862589, 49.3005985, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_64">
+            <name>Inclusion BC</name>
+            <description> 10 E 33rd Ave, Vancouver, BC V5W 2K6, Canada </description>
+            <Point id="geom_61">
+                <coordinates>-123.1049117, 49.2404209, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_65">
+            <name>Inclusion BC</name>
+            <description> 3108 W 16th Ave, Vancouver, BC V6K 3E1, Canada </description>
+            <Point id="geom_62">
+                <coordinates>-123.1743368, 49.25765579999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_66">
+            <name>Inclusion BC</name>
+            <description> 3805 W 4th Ave, Vancouver, BC V6R 1P8, Canada </description>
+            <Point id="geom_63">
+                <coordinates>-123.1876521, 49.2686771, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_67">
+            <name>Inclusion BC</name>
+            <description> 5700 Larch St, Vancouver, BC V6M 4E2, Canada </description>
+            <Point id="geom_64">
+                <coordinates>-123.162552, 49.23440069999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_68">
+            <name>Inclusion BC</name>
+            <description> 7500-7550 Victoria Dr, Vancouver, BC V5P 3Z7, Canada </description>
+            <Point id="geom_65">
+                <coordinates>-123.0659385, 49.2166197, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_69">
+            <name>Inclusion BC</name>
+            <description> 500 W 57th Ave, Vancouver, BC V6P 1R8, Canada </description>
+            <Point id="geom_66">
+                <coordinates>-123.1172368, 49.2190575, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_70">
+            <name>Inclusion BC</name>
+            <description> 1928 W 37th Ave, Vancouver, BC V6M 1N5, Canada </description>
+            <Point id="geom_67">
+                <coordinates>-123.1504631, 49.2382258, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_71">
+            <name>Inclusion BC</name>
+            <description> 1265 SE Marine Dr, Vancouver, BC V5X 2W2, Canada </description>
+            <Point id="geom_68">
+                <coordinates>-123.0807377, 49.211121, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_72">
+            <name>Inclusion BC</name>
+            <description> 8299 Victoria Dr, Vancouver, BC V5P, Canada </description>
+            <Point id="geom_69">
+                <coordinates>-123.0661197, 49.2097596, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_73">
+            <name>Inclusion BC</name>
+            <description> 6499 Fraser St, Vancouver, BC V5W 3A6, Canada </description>
+            <Point id="geom_70">
+                <coordinates>-123.0907844, 49.2254562, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_74">
+            <name>Inclusion BC</name>
+            <description> 933-987 Lytton St, North Vancouver, BC V7H, Canada </description>
+            <Point id="geom_71">
+                <coordinates>-123.0012629, 49.315282, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_75">
+            <name>Inclusion BC</name>
+            <description> 4664 Lougheed Hwy, Burnaby, BC V5C 3Y2, Canada </description>
+            <Point id="geom_72">
+                <coordinates>-122.9982815, 49.2654465, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_76">
+            <name>Inclusion BC</name>
+            <description> 1425 E 3rd Ave, Vancouver, BC V5N, Canada </description>
+            <Point id="geom_73">
+                <coordinates>-123.0749901, 49.26811259999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_77">
+            <name>Inclusion BC</name>
+            <description> 2702-2718 Norland Ave, Burnaby, BC V5B 3A9, Canada </description>
+            <Point id="geom_74">
+                <coordinates>-122.9825309, 49.2597609, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_78">
+            <name>Inclusion BC</name>
+            <description> 7575 Kingsway, Burnaby, BC V3N 3C3, Canada </description>
+            <Point id="geom_75">
+                <coordinates>-122.9443051, 49.2167179, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_79">
+            <name>Inclusion BC</name>
+            <description> 1104-1348 W 1st St, North Vancouver, BC V7P 3T4, Canada </description>
+            <Point id="geom_76">
+                <coordinates>-123.1050611, 49.3176081, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_80">
+            <name>Inclusion BC</name>
+            <description> 350 13th St, West Vancouver, BC V7T, Canada </description>
+            <Point id="geom_77">
+                <coordinates>-123.151981, 49.3268625, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_81">
+            <name>Inclusion BC</name>
+            <description> 3014 Edgemont Blvd, North Vancouver, BC V7R 4S9, Canada </description>
+            <Point id="geom_78">
+                <coordinates>-123.1007097, 49.3368219, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_82">
+            <name>Inclusion BC</name>
+            <description> 333 Brooksbank Ave, North Vancouver, BC V7J 3S8, Canada </description>
+            <Point id="geom_79">
+                <coordinates>-123.041787, 49.3089815, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_83">
+            <name>Inclusion BC</name>
+            <description> 10177 148 St, Surrey, BC V3R, Canada </description>
+            <Point id="geom_80">
+                <coordinates>-122.8123652, 49.1874888, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_84">
+            <name>Inclusion BC</name>
+            <description> 19433 96 Ave, Surrey, BC V4N 4C4, Canada </description>
+            <Point id="geom_81">
+                <coordinates>-122.684031, 49.177762, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_85">
+            <name>Inclusion BC</name>
+            <description> 16139 Fraser Hwy, Surrey, BC V4N 0G2, Canada </description>
+            <Point id="geom_82">
+                <coordinates>-122.7748474, 49.1563114, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_86">
+            <name>Inclusion BC</name>
+            <description> 17967 56 Ave, Surrey, BC V3S, Canada </description>
+            <Point id="geom_83">
+                <coordinates>-122.7243206, 49.104155, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_87">
+            <name>Inclusion BC</name>
+            <description> 111 Lakeshore Dr NE, Salmon Arm, BC V1E, Canada </description>
+            <Point id="geom_84">
+                <coordinates>-119.2838532, 50.7027298, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_88">
+            <name>Inclusion BC</name>
+            <description> 1111 Lakeshore Dr W, Salmon Arm, BC V1E 1E4, Canada </description>
+            <Point id="geom_85">
+                <coordinates>-119.2981939, 50.69799709999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_89">
+            <name>Inclusion BC</name>
+            <description> 2701 11 Ave NE, Salmon Arm, BC V1E 2S8, Canada </description>
+            <Point id="geom_86">
+                <coordinates>-119.2544024, 50.7077278, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_90">
+            <name>Inclusion BC</name>
+            <description> 5270 Auto Rd SE, Salmon Arm, BC V1E2Y1, Canada </description>
+            <Point id="geom_87">
+                <coordinates>-119.2259959, 50.66881679999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_91">
+            <name>Inclusion BC</name>
+            <description> 4828 Trans-Canada Hwy, Tappen, BC V0E 2X0, Canada </description>
+            <Point id="geom_88">
+                <coordinates>-119.3293697, 50.7863121, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_92">
+            <name>Inclusion BC</name>
+            <description> 3305 Smith Dr, Armstrong, BC V0E 1B1, Canada </description>
+            <Point id="geom_89">
+                <coordinates>-119.1850058, 50.4467055, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_93">
+            <name>Inclusion BC</name>
+            <description> 1279 BC-1, Sorrento, BC V0E 2W0, Canada </description>
+            <Point id="geom_90">
+                <coordinates>-119.4692155, 50.877071, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_94">
+            <name>Inclusion BC</name>
+            <description> 400 Shuswap Ave, Chase, BC V0E 1M1, Canada </description>
+            <Point id="geom_91">
+                <coordinates>-119.693401, 50.816904, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_95">
+            <name>Inclusion BC</name>
+            <description> 8543 Bannister Dr, Mission, BC V2V 6Y3, Canada </description>
+            <Point id="geom_92">
+                <coordinates>-122.2969119, 49.1563339, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_96">
+            <name>Inclusion BC</name>
+            <description> 33345 2nd Ave, Mission, BC V2V, Canada </description>
+            <Point id="geom_93">
+                <coordinates>-122.302191, 49.1353399, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_97">
+            <name>Inclusion BC</name>
+            <description> 23357-23535 44 Ave, Langley, BC V2Z 2V2, Canada </description>
+            <Point id="geom_94">
+                <coordinates>-122.5733829, 49.0827407, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_98">
+            <name>Inclusion BC</name>
+            <description> 22084 48 Ave, Langley, BC V3A 3R9, Canada </description>
+            <Point id="geom_95">
+                <coordinates>-122.6114362, 49.0893849, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_99">
+            <name>Inclusion BC</name>
+            <description> 21488 Old Yale Rd, Langley, BC V3A 4M8, Canada </description>
+            <Point id="geom_96">
+                <coordinates>-122.6276063, 49.0904634, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_100">
+            <name>Inclusion BC</name>
+            <description> 20955 Old Yale Rd, Langley, BC V3A 7P8, Canada </description>
+            <Point id="geom_97">
+                <coordinates>-122.6409388, 49.0997754, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_101">
+            <name>Inclusion BC</name>
+            <description> 22702 48 Ave, Langley, BC V2Z 2T6, Canada </description>
+            <Point id="geom_98">
+                <coordinates>-122.5951462, 49.0885595, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_102">
+            <name>Inclusion BC</name>
+            <description> 4224 Jingle Pot Rd, Nanaimo, BC V9T 5P5, Canada </description>
+            <Point id="geom_99">
+                <coordinates>-124.0257471, 49.20491209999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_103">
+            <name>Inclusion BC</name>
+            <description> 6510 Portsmouth Rd, Nanaimo, BC V9V 1A3, Canada </description>
+            <Point id="geom_100">
+                <coordinates>-124.0464778, 49.2400302, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_104">
+            <name>Inclusion BC</name>
+            <description> 1135 Nelson St, Nanaimo, BC V9S, Canada </description>
+            <Point id="geom_101">
+                <coordinates>-123.9667569, 49.1868851, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_105">
+            <name>Inclusion BC</name>
+            <description> 96 Cavan St, Nanaimo, BC V9R, Canada </description>
+            <Point id="geom_102">
+                <coordinates>-123.9347259, 49.16245610000001, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_106">
+            <name>Inclusion BC</name>
+            <description> 6020 Blundell Rd, Richmond, BC V6W 1K8, Canada </description>
+            <Point id="geom_103">
+                <coordinates>-123.1583608, 49.1552692, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_107">
+            <name>Inclusion BC</name>
+            <description> 9280 No 2 Rd, Richmond, BC V7E 2C8, Canada </description>
+            <Point id="geom_104">
+                <coordinates>-123.1587617, 49.1454956, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_108">
+            <name>Inclusion BC</name>
+            <description> 6911 Lynas Ln, Richmond, BC V7C 3K8, Canada </description>
+            <Point id="geom_105">
+                <coordinates>-123.166169, 49.1634, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_109">
+            <name>Inclusion BC</name>
+            <description> 6960-6998 Minoru Blvd, Richmond, BC V6Y 4C2, Canada </description>
+            <Point id="geom_106">
+                <coordinates>-123.1402394, 49.1622061, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_110">
+            <name>Inclusion BC</name>
+            <description> 7059 Alberni St, Powell River, BC V8A 2C2, Canada </description>
+            <Point id="geom_107">
+                <coordinates>-124.5180101, 49.847306, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_111">
+            <name>Inclusion BC</name>
+            <description> 7346 Hwy 101, Powell River, BC V8A 0R1, Canada </description>
+            <Point id="geom_108">
+                <coordinates>-124.505498, 49.801117, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_112">
+            <name>Inclusion BC</name>
+            <description> 4885 BC-101, Powell River, BC V8A 0B6, Canada </description>
+            <Point id="geom_109">
+                <coordinates>-124.6131945, 49.89966279999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_113">
+            <name>Inclusion BC</name>
+            <description> 1436 BC-101, Lund, BC V0N 2G0, Canada </description>
+            <Point id="geom_110">
+                <coordinates>-124.7619786, 49.9814144, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_114">
+            <name>Inclusion BC</name>
+            <description> 9939 Black Point Rd, Powell River, BC V8A 0K1, Canada </description>
+            <Point id="geom_111">
+                <coordinates>-124.3958128, 49.7699947, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_115">
+            <name>Inclusion BC</name>
+            <description> 1551 Salisbury Ave, Port Coquitlam, BC V3B 8C9, Canada </description>
+            <Point id="geom_112">
+                <coordinates>-122.7572113, 49.2726739, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_116">
+            <name>Inclusion BC</name>
+            <description> 227 Sixth St, New Westminster, BC V3L 3A5, Canada </description>
+            <Point id="geom_113">
+                <coordinates>-122.9138866, 49.2082328, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_117">
+            <name>Inclusion BC</name>
+            <description> 811 Royal Ave, New Westminster, BC V3M 1K1, Canada </description>
+            <Point id="geom_114">
+                <coordinates>-122.915811, 49.2032669, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_118">
+            <name>Inclusion BC</name>
+            <description> 916 Clarke Rd, Port Moody, BC V3H 1L9, Canada </description>
+            <Point id="geom_115">
+                <coordinates>-122.876224, 49.271924, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_119">
+            <name>Inclusion BC</name>
+            <description> 300 Albert St, Port Moody, BC V3H 2M5, Canada </description>
+            <Point id="geom_116">
+                <coordinates>-122.866961, 49.274674, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_120">
+            <name>Inclusion BC</name>
+            <description> 3115 Murray St, Port Moody, BC V3H, Canada </description>
+            <Point id="geom_117">
+                <coordinates>-122.8404603, 49.2788145, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_121">
+            <name>Inclusion BC</name>
+            <description> 6 Electronic Ave, Port Moody, BC V3H 1X3, Canada </description>
+            <Point id="geom_118">
+                <coordinates>-122.8416782, 49.27866059999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_122">
+            <name>Inclusion BC</name>
+            <description> 2697 Sunnyside Rd, Anmore, BC V3H 4Y7, Canada </description>
+            <Point id="geom_119">
+                <coordinates>-122.8564654, 49.3144904, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_123">
+            <name>Inclusion BC</name>
+            <description> 30790-30850 Sandpiper Dr, Abbotsford, BC V2T 6X3, Canada </description>
+            <Point id="geom_120">
+                <coordinates>-122.370241, 49.0604633, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_124">
+            <name>Inclusion BC</name>
+            <description> 3600 Townline Rd, Abbotsford, BC V2T 5W8, Canada </description>
+            <Point id="geom_121">
+                <coordinates>-122.358963, 49.068299, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_125">
+            <name>Inclusion BC</name>
+            <description> 31544 Peardonville Rd, Abbotsford, BC V2T 1T8, Canada </description>
+            <Point id="geom_122">
+                <coordinates>-122.3492689, 49.0461961, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_126">
+            <name>Inclusion BC</name>
+            <description> 31631 S Fraser Way, Abbotsford, BC V2T 1T8, Canada </description>
+            <Point id="geom_123">
+                <coordinates>-122.3475812, 49.0465379, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_127">
+            <name>Inclusion BC</name>
+            <description> 34220 S Fraser Way, Abbotsford, BC V2S 2C6, Canada </description>
+            <Point id="geom_124">
+                <coordinates>-122.2761253, 49.0402152, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_128">
+            <name>Inclusion BC</name>
+            <description> 26281 Dewdney Trunk Rd, Maple Ridge, BC V2W 1A2, Canada </description>
+            <Point id="geom_125">
+                <coordinates>-122.493931, 49.220763, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_129">
+            <name>Inclusion BC</name>
+            <description> 4330 Sunshine Coast Hwy, Sechelt, BC V0N 3A1, Canada </description>
+            <Point id="geom_126">
+                <coordinates>-123.7093302, 49.4409225, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_130">
+            <name>Inclusion BC</name>
+            <description> 951 Gibsons Way, Gibsons, BC V0N 1V8, Canada </description>
+            <Point id="geom_127">
+                <coordinates>-123.5221947, 49.4063457, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_131">
+            <name>Inclusion BC</name>
+            <description> 5755 Cowrie St, Sechelt, BC V0N 3A0, Canada </description>
+            <Point id="geom_128">
+                <coordinates>-123.7611664, 49.4717812, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_132">
+            <name>Inclusion BC</name>
+            <description> 4471 Margaret St, Port Alberni, BC V9Y 6G7, Canada </description>
+            <Point id="geom_129">
+                <coordinates>-124.810546, 49.25656, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_133">
+            <name>Inclusion BC</name>
+            <description> 4521 Dogwood St, Port Alberni, BC V9Y 3Z8, Canada </description>
+            <Point id="geom_130">
+                <coordinates>-124.8007135, 49.2548849, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_134">
+            <name>Inclusion BC</name>
+            <description> 3008 2nd Ave, Port Alberni, BC V9Y 1Y9, Canada </description>
+            <Point id="geom_131">
+                <coordinates>-124.8093149, 49.233574, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_135">
+            <name>Inclusion BC</name>
+            <description> 4803 Canada Way, Burnaby, BC V5G 1L3, Canada </description>
+            <Point id="geom_132">
+                <coordinates>-122.985706, 49.250358, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_136">
+            <name>Inclusion BC</name>
+            <description> 2401 Spring St, Port Moody, BC V3H, Canada </description>
+            <Point id="geom_133">
+                <coordinates>-122.858529, 49.27726029999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_137">
+            <name>Inclusion BC</name>
+            <description> 123 Buller St, Port Moody, BC V3H 2C6, Canada </description>
+            <Point id="geom_134">
+                <coordinates>-122.8401571, 49.2760718, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_138">
+            <name>Inclusion BC</name>
+            <description> 3044 Clearbrook Rd, Abbotsford, BC V2T, Canada </description>
+            <Point id="geom_135">
+                <coordinates>-122.3375419, 49.0573213, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_139">
+            <name>Inclusion BC</name>
+            <description> 16613 Bell Rd, Surrey, BC V3S 1H8, Canada </description>
+            <Point id="geom_136">
+                <coordinates>-122.7618488, 49.1076359, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_140">
+            <name>Inclusion BC</name>
+            <description> 32500 S Fraser Way, Abbotsford, BC V2T 1X3, Canada </description>
+            <Point id="geom_137">
+                <coordinates>-122.3246899, 49.0505358, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_141">
+            <name>Inclusion BC</name>
+            <description> 32500 S Fraser Way, Abbotsford, BC V2T 1X3, Canada </description>
+            <Point id="geom_138">
+                <coordinates>-122.3246899, 49.0505358, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_142">
+            <name>Inclusion BC</name>
+            <description> 6021 W Saanich Rd, Victoria, BC V9E 2G4, Canada </description>
+            <Point id="geom_139">
+                <coordinates>-123.4396372, 48.55188769999999, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_143">
+            <name>Inclusion BC</name>
+            <description> 2928 Eastdowne Rd, Victoria, BC V8R 5R8, Canada </description>
+            <Point id="geom_140">
+                <coordinates>-123.314635, 48.4419, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_144">
+            <name>Inclusion BC</name>
+            <description> 1379 Esquimalt Rd, Victoria, BC V9A 3R4, Canada </description>
+            <Point id="geom_141">
+                <coordinates>-123.4225326, 48.429433, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_145">
+            <name>Inclusion BC</name>
+            <description> 3252-3268 Glasgow Ave, Victoria, BC V8X 1M2, Canada </description>
+            <Point id="geom_142">
+                <coordinates>-123.363314, 48.450905, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_146">
+            <name>Inclusion BC</name>
+            <description> 2702-2718 Norland Ave, Burnaby, BC V5B 3A9, Canada </description>
+            <Point id="geom_143">
+                <coordinates>-122.9826956, 49.2597719, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_147">
+            <name>Inclusion BC</name>
+            <description> 4351 Rumble St, Burnaby, BC V5J 2A2, Canada </description>
+            <Point id="geom_144">
+                <coordinates>-123.0068765, 49.2150027, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_148">
+            <name>Inclusion BC</name>
+            <description> 7086 124 St, Surrey, BC V3W 3W8, Canada </description>
+            <Point id="geom_145">
+                <coordinates>-122.87826, 49.132032, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_149">
+            <name>Inclusion BC</name>
+            <description> 2121 Cedar Hill X Rd, Victoria, BC V8P 2R6, Canada </description>
+            <Point id="geom_146">
+                <coordinates>-123.3143307, 48.45791570000001, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_150">
+            <name>Inclusion BC</name>
+            <description> 6436 Walker Ave, Burnaby, BC V5E 3B6, Canada </description>
+            <Point id="geom_147">
+                <coordinates>-122.959054, 49.226038, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_151">
+            <name>Inclusion BC</name>
+            <description> 6436 Walker Ave, Burnaby, BC V5E 3B6, Canada </description>
+            <Point id="geom_148">
+                <coordinates>-122.959054, 49.226038, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_152">
+            <name>Inclusion BC</name>
+            <description> 4082 Shelbourne St, Victoria, BC V8N 2A1, Canada </description>
+            <Point id="geom_149">
+                <coordinates>-123.3334092, 48.4763173, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_153">
+            <name>Inclusion BC</name>
+            <description> 3781 Cedar Hill Rd, Victoria, BC V8P 3Z4, Canada </description>
+            <Point id="geom_150">
+                <coordinates>-123.3371795, 48.4620138, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_154">
+            <name>Inclusion BC</name>
+            <description> 2964 Richmond Rd, Victoria, BC V8R 4V1, Canada </description>
+            <Point id="geom_151">
+                <coordinates>-123.3273246, 48.443679, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_155">
+            <name>Inclusion BC</name>
+            <description> 10 E 33rd Ave, Vancouver, BC V5W 2K6, Canada </description>
+            <Point id="geom_152">
+                <coordinates>-123.1049117, 49.2404209, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_156">
+            <name>Inclusion BC</name>
+            <description> 996 E 12th Ave, Vancouver, BC V5T 2J4, Canada </description>
+            <Point id="geom_153">
+                <coordinates>-123.0833602, 49.2596649, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_157">
+            <name>Inclusion BC</name>
+            <description> 3192-3212 Macdonald St, Vancouver, BC V6K, Canada </description>
+            <Point id="geom_154">
+                <coordinates>-123.1683844, 49.2577706, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_158">
+            <name>Inclusion BC</name>
+            <description> 1716 Clark Dr, Vancouver, BC V5N 3G2, Canada </description>
+            <Point id="geom_155">
+                <coordinates>-123.076966, 49.269441, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_159">
+            <name>Inclusion BC</name>
+            <description> 1659 Venables St, Vancouver, BC V5L 2H1, Canada </description>
+            <Point id="geom_156">
+                <coordinates>-123.0714492, 49.2768202, 0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

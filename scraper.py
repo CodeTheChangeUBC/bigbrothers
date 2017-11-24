@@ -11,6 +11,7 @@ from bin import Bin
 from selenium import webdriver
 import time
 import simplekml
+import json
 # Google API information
 googleApiKey = "AIzaSyAOyu_oSTIsdrxgYm6Fby0DckoZGMdJECA"
 gmaps = googlemaps.Client(key=googleApiKey)
@@ -21,6 +22,7 @@ salvationarmy = []
 inclusionbc = []
 cerebralpalsy = []
 diabetescanada = []
+developbc = []
 
 def openinterface ():
     path = "file://" +os.path.abspath("test.html")
@@ -142,58 +144,65 @@ except requests.exceptions.RequestException as e:
     print(e)
 
 # Big Brothers
-print("Big Brothers")
-url = "https://www.bigbrothersvancouver.com/clothing-donation/donation-bins/"
-browser = webdriver.PhantomJS()
-browser.get(url)
-time.sleep(1)
-html = browser.page_source
-soup = BeautifulSoup(html, 'lxml')
-filtered1 = soup.find_all("div", {"class": "location_secondary"})
-for item in filtered1:
-    item_street = item.find_all("span", {"class": "slp_result_street"})
-    item_city = item.find_all("span", {"class": "slp_result_citystatezip"})
-    addBin = Bin("", "", "", "", "", "")
-    addBin.address = item_street[0].text.strip() + " " + item_city[0].text.strip()
-    addBin.company = "Big Brothers"
-    list.append(addBin)
-    bigbrothers.append(addBin)
-geocode("BigBrothers", bigbrothers)
-browser.close()
+try:
+    print("Big Brothers")
+    url = "https://www.bigbrothersvancouver.com/clothing-donation/donation-bins/"
+    browser = webdriver.PhantomJS()
+    browser.get(url)
+    time.sleep(1)
+    html = browser.page_source
+    soup = BeautifulSoup(html, 'lxml')
+    filtered1 = soup.find_all("div", {"class": "location_secondary"})
+    for item in filtered1:
+        item_street = item.find_all("span", {"class": "slp_result_street"})
+        item_city = item.find_all("span", {"class": "slp_result_citystatezip"})
+        addBin = Bin("", "", "", "", "", "")
+        addBin.address = item_street[0].text.strip() + " " + item_city[0].text.strip()
+        addBin.company = "Big Brothers"
+        list.append(addBin)
+        bigbrothers.append(addBin)
+    geocode("BigBrothers", bigbrothers)
+    browser.close()
+except requests.exceptions.RequestException as e:
+    print(e)
 
 # Develop BC
-print("develop bc")
+try:
+    print("Develop bc")
+    url = "http://www.develop.bc.ca/find-a-clothing-bin/"
+    browser = webdriver.PhantomJS()
+    browser.get(url)
+    time.sleep(1)
+    html = browser.page_source
 
-url = "http://www.develop.bc.ca/find-a-clothing-bin/"
-browser = webdriver.PhantomJS()
-browser.get(url)
-time.sleep(1)
-html = browser.page_source
+    soup = BeautifulSoup(html, "lxml")
+    individual_results = soup.find_all("script")
 
-soup = BeautifulSoup(html, "lxml")
-individual_results = soup.find_all("script")
+    for result in individual_results:
+       resultString = result.string
+       #print(resultString)
+       search = 'mapData'
+       if resultString is not None:
+        if search in resultString:
+            addressesString = resultString
+    startString = addressesString.find('[')
+    endString = addressesString.rfind(']')
+    jsonString = addressesString[startString:endString +1]
 
-for result in individual_results:
-   resultString = result.string
-   #print(resultString)
-   search = 'mapData'
-   if resultString is not None:
-    if search in resultString:
-        addressesString = resultString
-startString = addressesString.find('[')
-endString = addressesString.rfind(']')
-jsonString = addressesString[startString:endString +1]
+    json_1 = json.loads(jsonString)
 
-json_1 = json.loads(jsonString)
-
-for j in json_1:
-    addBin = Bin("", "", "", "", "", "")
-    splitted = j["location"]["address"].split(",")
-
-    addBin.address = splitted[0]
-    addBin.city = splitted[1]
-    addBin.company = "Develop BC"
-    list.append(addBin)
+    for j in json_1:
+        addBin = Bin("", "", "", "", "", "")
+        splitted = j["location"]["address"].split(",")
+        print("doing stuff")
+        addBin.address = splitted[0]
+        addBin.city = splitted[1]
+        addBin.company = "Develop BC"
+        list.append(addBin)
+        developbc.append(addBin)
+    geocode("DevelopBC", developbc)
+except requests.exceptions.RequestException as e:
+    print(e)
 
 for item in list:
     print(item)
