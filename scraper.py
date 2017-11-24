@@ -13,7 +13,7 @@ import time
 import simplekml
 import json
 # Google API information
-googleApiKey = "AIzaSyAOyu_oSTIsdrxgYm6Fby0DckoZGMdJECA"
+googleApiKey = "AIzaSyDdyAcausBK2aS8GGTfeubUeKUukWgFasg"
 gmaps = googlemaps.Client(key=googleApiKey)
 
 list = []
@@ -32,6 +32,7 @@ def openinterface ():
 
 def geocode (companyname,lst):
     kml = simplekml.Kml()
+
     for item in lst:
         if item.getCoordinate():
             coordinateRaw = item.getCoordinate()
@@ -45,7 +46,18 @@ def geocode (companyname,lst):
             coordinate = item.getCoordinate().split(",")
             pnt = kml.newpoint(name=item.getCompany(), description=item.getContents(), coords=[
                          (coordinate[0], coordinate[1], coordinate[2])])  # lon, lat, optional height
-
+            if companyname == "SalvationArmy":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png' #teal
+            if companyname == "InclusionBC":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png'
+            if companyname == "CerebralPalsy":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png' #white
+            if companyname == "DiabetesCanada":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
+            if companyname == "BigBrothers":
+                pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png' #bigbrothers logo
+            if companyname == "DevelopBC":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
         elif item.getAddress():
             address = item.getAddress()
             geocode_result = gmaps.geocode(address)
@@ -56,6 +68,20 @@ def geocode (companyname,lst):
             coordinate = item.getCoordinate().split(",")
             pnt = kml.newpoint(name=item.getCompany(), coords=[
                          (coordinate[0], coordinate[1], coordinate[2])], description=item.getContents())  # lon, lat, optional height
+
+            if companyname == "SalvationArmy":
+                pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png'  #teal
+            if companyname == "InclusionBC":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png'          #yellow
+            if companyname == "CerebralPalsy":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png' #white
+            if companyname == "DiabetesCanada":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
+            if companyname == "BigBrothers":
+                pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png' #bigbrothers logo
+            if companyname == "DevelopBC":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
+
     print("saving file  " + companyname + ".kml")
     kml.save("generatedkml/"+companyname+".kml")
     print("SAVED")
@@ -96,7 +122,6 @@ try:
     r2 = requests.get(url2)
     soup2 = BeautifulSoup(r2.content, "lxml")
     filtered2 = soup2.find_all("placemark")
-    print("Inclusion BC")
     for item in filtered2:
         addBin = Bin("", "", "", "", "", "")
         addBin.address = item.find_all("name")[0].text.strip()
