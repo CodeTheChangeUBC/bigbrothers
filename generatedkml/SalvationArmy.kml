@@ -1,9 +1,430 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="feat_1">
+        <Style id="stylesel_0">
+            <IconStyle id="substyle_0">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_0">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_1">
+            <IconStyle id="substyle_1">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_1">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_2">
+            <IconStyle id="substyle_2">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_2">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_3">
+            <IconStyle id="substyle_3">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_3">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_4">
+            <IconStyle id="substyle_4">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_4">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_5">
+            <IconStyle id="substyle_5">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_5">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_6">
+            <IconStyle id="substyle_6">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_6">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_7">
+            <IconStyle id="substyle_7">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_7">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_8">
+            <IconStyle id="substyle_8">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_8">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_9">
+            <IconStyle id="substyle_9">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_9">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_10">
+            <IconStyle id="substyle_10">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_10">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_11">
+            <IconStyle id="substyle_11">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_11">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_12">
+            <IconStyle id="substyle_12">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_12">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_13">
+            <IconStyle id="substyle_13">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_13">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_14">
+            <IconStyle id="substyle_14">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_14">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_15">
+            <IconStyle id="substyle_15">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_15">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_16">
+            <IconStyle id="substyle_16">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_16">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_17">
+            <IconStyle id="substyle_17">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_17">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_18">
+            <IconStyle id="substyle_18">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_18">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_19">
+            <IconStyle id="substyle_19">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_19">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_20">
+            <IconStyle id="substyle_20">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_20">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_21">
+            <IconStyle id="substyle_21">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_21">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_22">
+            <IconStyle id="substyle_22">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_22">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_23">
+            <IconStyle id="substyle_23">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_23">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_24">
+            <IconStyle id="substyle_24">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_24">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_25">
+            <IconStyle id="substyle_25">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_25">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_26">
+            <IconStyle id="substyle_26">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_26">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_27">
+            <IconStyle id="substyle_27">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_27">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_28">
+            <IconStyle id="substyle_28">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_28">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_29">
+            <IconStyle id="substyle_29">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_29">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_30">
+            <IconStyle id="substyle_30">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_30">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_31">
+            <IconStyle id="substyle_31">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_31">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_32">
+            <IconStyle id="substyle_32">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_32">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_33">
+            <IconStyle id="substyle_33">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_33">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_34">
+            <IconStyle id="substyle_34">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_34">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_35">
+            <IconStyle id="substyle_35">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_35">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_36">
+            <IconStyle id="substyle_36">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_36">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_37">
+            <IconStyle id="substyle_37">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_37">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_38">
+            <IconStyle id="substyle_38">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_38">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_39">
+            <IconStyle id="substyle_39">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_39">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_40">
+            <IconStyle id="substyle_40">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_40">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_41">
+            <IconStyle id="substyle_41">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_41">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
         <Placemark id="feat_2">
             <name>Type</name>
             <description>Locations British Columbia, Canada </description>
+            <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_0">
                 <coordinates>-127.6476205, 53.7266683, 0</coordinates>
             </Point>
@@ -11,6 +432,7 @@
         <Placemark id="feat_3">
             <name>BC Kids Hospital</name>
             <description>Lynn Valley Safeway (Parking Lot) 1170 27th St, North Vancouver, BC V7J 1S1, Canada </description>
+            <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_1">
                 <coordinates>-123.0415279, 49.3341386, 0</coordinates>
             </Point>
@@ -18,6 +440,7 @@
         <Placemark id="feat_4">
             <name>BC Kids Hospital</name>
             <description>Edgemont Market (Parking Lot) 3230 Connaught Crescent, North Vancouver, BC V7R 2V6, Canada </description>
+            <styleUrl>#stylesel_2</styleUrl>
             <Point id="geom_2">
                 <coordinates>-123.1020354, 49.3386248, 0</coordinates>
             </Point>
@@ -25,6 +448,7 @@
         <Placemark id="feat_5">
             <name>BC Kids Hospital</name>
             <description>Real Canadian Superstore (Parking Lot) 333 Seymour Blvd, North Vancouver, BC V7J 2J4, Canada </description>
+            <styleUrl>#stylesel_3</styleUrl>
             <Point id="geom_3">
                 <coordinates>-123.0237872, 49.3114325, 0</coordinates>
             </Point>
@@ -32,6 +456,7 @@
         <Placemark id="feat_6">
             <name>BC Kids Hospital</name>
             <description>Thunder Bird Marina(Parking Lot) 5770 Marine Dr, West Vancouver, BC V7W, Canada </description>
+            <styleUrl>#stylesel_4</styleUrl>
             <Point id="geom_4">
                 <coordinates>-123.2669626, 49.3573104, 0</coordinates>
             </Point>
@@ -39,6 +464,7 @@
         <Placemark id="feat_7">
             <name>BC Kids Hospital</name>
             <description>Vancouver Fire Hall #21 5425 Carnarvon St, Vancouver, BC V6N, Canada </description>
+            <styleUrl>#stylesel_5</styleUrl>
             <Point id="geom_5">
                 <coordinates>-123.1732736, 49.2373513, 0</coordinates>
             </Point>
@@ -46,6 +472,7 @@
         <Placemark id="feat_8">
             <name>BC Kids Hospital</name>
             <description>White Spot Restaurant (Parking Lot) 2518 W Broadway, Vancouver, BC V6K 2J5, Canada </description>
+            <styleUrl>#stylesel_6</styleUrl>
             <Point id="geom_6">
                 <coordinates>-123.1632964, 49.2637844, 0</coordinates>
             </Point>
@@ -53,6 +480,7 @@
         <Placemark id="feat_9">
             <name>BC Kids Hospital</name>
             <description>Vancouver Fire Hall #19 (Trimble) 4396 W 12th Ave, Vancouver, BC V6R 2R1, Canada </description>
+            <styleUrl>#stylesel_7</styleUrl>
             <Point id="geom_7">
                 <coordinates>-123.2058361, 49.2617935, 0</coordinates>
             </Point>
@@ -60,6 +488,7 @@
         <Placemark id="feat_10">
             <name>BC Kids Hospital</name>
             <description>Al Mark Financial Services 3190 Blenheim St, Vancouver, BC V6K 4J7, Canada </description>
+            <styleUrl>#stylesel_8</styleUrl>
             <Point id="geom_8">
                 <coordinates>-123.1779136, 49.2580749, 0</coordinates>
             </Point>
@@ -67,6 +496,7 @@
         <Placemark id="feat_11">
             <name>BC Kids Hospital</name>
             <description>Safeway (Parking Lot) 4545 W 10th Ave, Vancouver, BC V6R 2J2, Canada </description>
+            <styleUrl>#stylesel_9</styleUrl>
             <Point id="geom_9">
                 <coordinates>-123.2100123, 49.2641004, 0</coordinates>
             </Point>
@@ -74,6 +504,7 @@
         <Placemark id="feat_12">
             <name>BC Kids Hospital</name>
             <description>Vancouver Fire Hall #10 2992 Wesbrook Mall, Vancouver, BC V6T, Canada </description>
+            <styleUrl>#stylesel_10</styleUrl>
             <Point id="geom_10">
                 <coordinates>-123.2381418, 49.2590164, 0</coordinates>
             </Point>
@@ -81,6 +512,7 @@
         <Placemark id="feat_13">
             <name>BC Kids Hospital</name>
             <description>Shoppers Drug Mart (Parking Lot) 4326 Dunbar St, Vancouver, BC V6S 2G3, Canada </description>
+            <styleUrl>#stylesel_11</styleUrl>
             <Point id="geom_11">
                 <coordinates>-123.1848388, 49.2476911, 0</coordinates>
             </Point>
@@ -88,6 +520,7 @@
         <Placemark id="feat_14">
             <name>BC Kids Hospital</name>
             <description>BC Kids Hospital - Oak Street Entrance Oak St &amp; W 28th Ave, Vancouver, BC V6H, Canada </description>
+            <styleUrl>#stylesel_12</styleUrl>
             <Point id="geom_12">
                 <coordinates>-123.1276878, 49.246332, 0</coordinates>
             </Point>
@@ -95,6 +528,7 @@
         <Placemark id="feat_15">
             <name>BC Kids Hospital</name>
             <description>BC Kids Hospital - Main Entrance 28 Ave, Surrey, BC, Canada </description>
+            <styleUrl>#stylesel_13</styleUrl>
             <Point id="geom_13">
                 <coordinates>-122.8114273, 49.0529193, 0</coordinates>
             </Point>
@@ -102,6 +536,7 @@
         <Placemark id="feat_16">
             <name>BC Kids Hospital</name>
             <description>Langara Golf Club 6706 Alberta St, Vancouver, BC V5Y 2Z5, Canada </description>
+            <styleUrl>#stylesel_14</styleUrl>
             <Point id="geom_14">
                 <coordinates>-123.1126369, 49.2238379, 0</coordinates>
             </Point>
@@ -109,6 +544,7 @@
         <Placemark id="feat_17">
             <name>BC Kids Hospital</name>
             <description>Nat Bailey Stadium (Parking Lot #3) 4601 Ontario St, Vancouver, BC V5V 3H4, Canada </description>
+            <styleUrl>#stylesel_15</styleUrl>
             <Point id="geom_15">
                 <coordinates>-123.1067115, 49.2426705, 0</coordinates>
             </Point>
@@ -116,6 +552,7 @@
         <Placemark id="feat_18">
             <name>BC Kids Hospital</name>
             <description>Safeway (Parking Lot) 2315 W 4th Ave, Vancouver, BC V6K, Canada </description>
+            <styleUrl>#stylesel_16</styleUrl>
             <Point id="geom_16">
                 <coordinates>-123.1584895, 49.26876559999999, 0</coordinates>
             </Point>
@@ -123,6 +560,7 @@
         <Placemark id="feat_19">
             <name>BC Kids Hospital</name>
             <description>Real Canadian Superstore (Parking Lot) 3185 Grandview Hwy, Vancouver, BC V5M 2E9, Canada </description>
+            <styleUrl>#stylesel_17</styleUrl>
             <Point id="geom_17">
                 <coordinates>-123.0366581, 49.2589458, 0</coordinates>
             </Point>
@@ -130,6 +568,7 @@
         <Placemark id="feat_20">
             <name>BC Kids Hospital</name>
             <description>Real Canadian Superstore (Parking Lot) 350 SE Marine Dr, Vancouver, BC V5X 2S5, Canada </description>
+            <styleUrl>#stylesel_18</styleUrl>
             <Point id="geom_18">
                 <coordinates>-123.0994682, 49.2085219, 0</coordinates>
             </Point>
@@ -137,6 +576,7 @@
         <Placemark id="feat_21">
             <name>BC Kids Hospital</name>
             <description>Vancouver Fire Hall #9 1805 Victoria Dr, Vancouver, BC V5N 4K1, Canada </description>
+            <styleUrl>#stylesel_19</styleUrl>
             <Point id="geom_19">
                 <coordinates>-123.066176, 49.268438, 0</coordinates>
             </Point>
@@ -144,6 +584,7 @@
         <Placemark id="feat_22">
             <name>BC Kids Hospital</name>
             <description>Big Bend Crossing Shopping Mall (Parking Lot) 5751 Marine Way, Burnaby, BC V5J 3J3, Canada </description>
+            <styleUrl>#stylesel_20</styleUrl>
             <Point id="geom_20">
                 <coordinates>-122.9783478, 49.19971289999999, 0</coordinates>
             </Point>
@@ -151,6 +592,7 @@
         <Placemark id="feat_23">
             <name>BC Kids Hospital</name>
             <description>Gilmore Skytrain Station (Parking Lot) 2199 Gilmore Ave, Burnaby, BC V5C, Canada </description>
+            <styleUrl>#stylesel_21</styleUrl>
             <Point id="geom_21">
                 <coordinates>-123.0143229, 49.2609313, 0</coordinates>
             </Point>
@@ -158,6 +600,7 @@
         <Placemark id="feat_24">
             <name>BC Kids Hospital</name>
             <description>Still Creek Recycling Centre 4800 Still Creek Ave, Burnaby, BC V5C 5V1, Canada </description>
+            <styleUrl>#stylesel_22</styleUrl>
             <Point id="geom_22">
                 <coordinates>-122.996225, 49.2608489, 0</coordinates>
             </Point>
@@ -165,6 +608,7 @@
         <Placemark id="feat_25">
             <name>BC Kids Hospital</name>
             <description>City Owned Vacant Land Hastings St &amp; Willingdon Ave, Burnaby, BC V5C, Canada </description>
+            <styleUrl>#stylesel_23</styleUrl>
             <Point id="geom_23">
                 <coordinates>-123.0031033, 49.281019, 0</coordinates>
             </Point>
@@ -172,6 +616,7 @@
         <Placemark id="feat_26">
             <name>BC Kids Hospital</name>
             <description>Seafair Mall (Parking Lot by A&amp;W) 8671 No 1 Rd, Richmond, BC V7C 1V1, Canada </description>
+            <styleUrl>#stylesel_24</styleUrl>
             <Point id="geom_24">
                 <coordinates>-123.1827175, 49.1491585, 0</coordinates>
             </Point>
@@ -179,6 +624,7 @@
         <Placemark id="feat_27">
             <name>BC Kids Hospital</name>
             <description>Real Canadian Superstore (Parking Lot) 4651 No 3 Rd, Richmond, BC V6X 2C4, Canada </description>
+            <styleUrl>#stylesel_25</styleUrl>
             <Point id="geom_25">
                 <coordinates>-123.1383519, 49.1793619, 0</coordinates>
             </Point>
@@ -186,6 +632,7 @@
         <Placemark id="feat_28">
             <name>BC Kids Hospital</name>
             <description>City Parking Lot Chatham St &amp; Sixth Ave, Richmond, BC V7E, Canada </description>
+            <styleUrl>#stylesel_26</styleUrl>
             <Point id="geom_26">
                 <coordinates>-123.190291, 49.126427, 0</coordinates>
             </Point>
@@ -193,6 +640,7 @@
         <Placemark id="feat_29">
             <name>BC Kids Hospital</name>
             <description>Choices Market 3248 King George Blvd, Surrey, BC V4P 1A5, Canada </description>
+            <styleUrl>#stylesel_27</styleUrl>
             <Point id="geom_27">
                 <coordinates>-122.8108889, 49.0614475, 0</coordinates>
             </Point>
@@ -200,6 +648,7 @@
         <Placemark id="feat_30">
             <name>BC Kids Hospital</name>
             <description>CO-OP Gas Bar 16788 104 Ave, Surrey, BC V4N 1Z1, Canada </description>
+            <styleUrl>#stylesel_28</styleUrl>
             <Point id="geom_28">
                 <coordinates>-122.756889, 49.191466, 0</coordinates>
             </Point>
@@ -207,6 +656,7 @@
         <Placemark id="feat_31">
             <name>BC Kids Hospital</name>
             <description>Real Canadian Superstore (Parking Lot) 3000 Lougheed Hwy, Coquitlam, BC V3B 1C5, Canada </description>
+            <styleUrl>#stylesel_29</styleUrl>
             <Point id="geom_29">
                 <coordinates>-122.7933019, 49.2735552, 0</coordinates>
             </Point>
@@ -214,6 +664,7 @@
         <Placemark id="feat_32">
             <name>Salvation Army Drop Bin</name>
             <description>View Royal Thrift Store 307 Island Hwy, Victoria, BC V9B 1G9, Canada </description>
+            <styleUrl>#stylesel_30</styleUrl>
             <Point id="geom_30">
                 <coordinates>-123.4422969, 48.4562953, 0</coordinates>
             </Point>
@@ -221,6 +672,7 @@
         <Placemark id="feat_33">
             <name>Salvation Army Drop Bin</name>
             <description>Langford Thrift Store 777 Goldstream Ave, Victoria, BC V9B 2X4, Canada </description>
+            <styleUrl>#stylesel_31</styleUrl>
             <Point id="geom_31">
                 <coordinates>-123.4996188, 48.44815029999999, 0</coordinates>
             </Point>
@@ -228,6 +680,7 @@
         <Placemark id="feat_34">
             <name>Salvation Army Drop Bin</name>
             <description>Mill Bay Thrift Store 855 Shawnigan-Mill Bay Road, Mill Bay, BC V0R 2P2, Canada </description>
+            <styleUrl>#stylesel_32</styleUrl>
             <Point id="geom_32">
                 <coordinates>-123.5624164, 48.6578267, 0</coordinates>
             </Point>
@@ -235,6 +688,7 @@
         <Placemark id="feat_35">
             <name>Salvation Army Drop Bin</name>
             <description>Saanich Thrift Store 3934 Quadra St, Victoria, BC V8X 1J5, Canada </description>
+            <styleUrl>#stylesel_33</styleUrl>
             <Point id="geom_33">
                 <coordinates>-123.3619847, 48.4654231, 0</coordinates>
             </Point>
@@ -242,6 +696,7 @@
         <Placemark id="feat_36">
             <name>Salvation Army Drop Bin</name>
             <description>Hillside Thrift Store 990 Hillside Ave, Victoria, BC V8T 1Z7, Canada </description>
+            <styleUrl>#stylesel_34</styleUrl>
             <Point id="geom_34">
                 <coordinates>-123.3596193, 48.4396303, 0</coordinates>
             </Point>
@@ -249,6 +704,7 @@
         <Placemark id="feat_37">
             <name>Salvation Army Drop Bin</name>
             <description>Brentwood Thrift Store 7177 W Saanich Rd, Brentwood Bay, BC V8M 1P6, Canada </description>
+            <styleUrl>#stylesel_35</styleUrl>
             <Point id="geom_35">
                 <coordinates>-123.4482025, 48.5775709, 0</coordinates>
             </Point>
@@ -256,6 +712,7 @@
         <Placemark id="feat_38">
             <name>Salvation Army Drop Bin</name>
             <description>Cedar Hill Thrift Store 1551 Cedar Hill X Rd, Victoria, BC V8P 2P2, Canada </description>
+            <styleUrl>#stylesel_36</styleUrl>
             <Point id="geom_36">
                 <coordinates>-123.334333, 48.4612551, 0</coordinates>
             </Point>
@@ -263,6 +720,7 @@
         <Placemark id="feat_39">
             <name>Salvation Army Drop Bin</name>
             <description>Coquitlam Centre Shopping Mall 2929 Barnet Hwy, Coquitlam, BC V3B 0G2, Canada </description>
+            <styleUrl>#stylesel_37</styleUrl>
             <Point id="geom_37">
                 <coordinates>-122.7986124, 49.2796092, 0</coordinates>
             </Point>
@@ -270,6 +728,7 @@
         <Placemark id="feat_40">
             <name>Salvation Army Drop Bin</name>
             <description>Arbutus Shopping Centre 4255 Arbutus St, Vancouver, BC V6L, Canada </description>
+            <styleUrl>#stylesel_38</styleUrl>
             <Point id="geom_38">
                 <coordinates>-123.1550137, 49.2487742, 0</coordinates>
             </Point>
@@ -277,6 +736,7 @@
         <Placemark id="feat_41">
             <name>Salvation Army Drop Bin</name>
             <description>Quaywest Condo Corp. 1033 Marinaside Crescent, Vancouver, BC V6Z 3A3, Canada </description>
+            <styleUrl>#stylesel_39</styleUrl>
             <Point id="geom_39">
                 <coordinates>-123.1163371, 49.2734623, 0</coordinates>
             </Point>
@@ -284,6 +744,7 @@
         <Placemark id="feat_42">
             <name>Salvation Army Drop Bin</name>
             <description>Air Canada - Vancouver Intl Airport - Cargo 4900 Miller Rd, Richmond, BC V7B 1K4, Canada </description>
+            <styleUrl>#stylesel_40</styleUrl>
             <Point id="geom_40">
                 <coordinates>-123.168297, 49.1897499, 0</coordinates>
             </Point>
@@ -291,6 +752,7 @@
         <Placemark id="feat_43">
             <name>Salvation Army Drop Bin</name>
             <description>Trinity Western University 7600 Glover Rd, Langley, BC V2Y 1Y1, Canada </description>
+            <styleUrl>#stylesel_41</styleUrl>
             <Point id="geom_41">
                 <coordinates>-122.6020304, 49.1406699, 0</coordinates>
             </Point>

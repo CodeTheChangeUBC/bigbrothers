@@ -1,9 +1,1310 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="feat_172">
+        <Style id="stylesel_168">
+            <IconStyle id="substyle_168">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_168">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_169">
+            <IconStyle id="substyle_169">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_169">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_170">
+            <IconStyle id="substyle_170">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_170">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_171">
+            <IconStyle id="substyle_171">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_171">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_172">
+            <IconStyle id="substyle_172">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_172">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_173">
+            <IconStyle id="substyle_173">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_173">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_174">
+            <IconStyle id="substyle_174">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_174">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_175">
+            <IconStyle id="substyle_175">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_175">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_176">
+            <IconStyle id="substyle_176">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_176">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_177">
+            <IconStyle id="substyle_177">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_177">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_178">
+            <IconStyle id="substyle_178">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_178">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_179">
+            <IconStyle id="substyle_179">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_179">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_180">
+            <IconStyle id="substyle_180">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_180">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_181">
+            <IconStyle id="substyle_181">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_181">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_182">
+            <IconStyle id="substyle_182">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_182">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_183">
+            <IconStyle id="substyle_183">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_183">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_184">
+            <IconStyle id="substyle_184">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_184">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_185">
+            <IconStyle id="substyle_185">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_185">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_186">
+            <IconStyle id="substyle_186">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_186">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_187">
+            <IconStyle id="substyle_187">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_187">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_188">
+            <IconStyle id="substyle_188">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_188">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_189">
+            <IconStyle id="substyle_189">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_189">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_190">
+            <IconStyle id="substyle_190">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_190">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_191">
+            <IconStyle id="substyle_191">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_191">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_192">
+            <IconStyle id="substyle_192">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_192">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_193">
+            <IconStyle id="substyle_193">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_193">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_194">
+            <IconStyle id="substyle_194">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_194">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_195">
+            <IconStyle id="substyle_195">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_195">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_196">
+            <IconStyle id="substyle_196">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_196">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_197">
+            <IconStyle id="substyle_197">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_197">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_198">
+            <IconStyle id="substyle_198">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_198">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_199">
+            <IconStyle id="substyle_199">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_199">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_200">
+            <IconStyle id="substyle_200">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_200">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_201">
+            <IconStyle id="substyle_201">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_201">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_202">
+            <IconStyle id="substyle_202">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_202">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_203">
+            <IconStyle id="substyle_203">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_203">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_204">
+            <IconStyle id="substyle_204">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_204">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_205">
+            <IconStyle id="substyle_205">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_205">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_206">
+            <IconStyle id="substyle_206">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_206">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_207">
+            <IconStyle id="substyle_207">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_207">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_208">
+            <IconStyle id="substyle_208">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_208">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_209">
+            <IconStyle id="substyle_209">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_209">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_210">
+            <IconStyle id="substyle_210">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_210">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_211">
+            <IconStyle id="substyle_211">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_211">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_212">
+            <IconStyle id="substyle_212">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_212">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_213">
+            <IconStyle id="substyle_213">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_213">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_214">
+            <IconStyle id="substyle_214">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_214">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_215">
+            <IconStyle id="substyle_215">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_215">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_216">
+            <IconStyle id="substyle_216">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_216">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_217">
+            <IconStyle id="substyle_217">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_217">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_218">
+            <IconStyle id="substyle_218">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_218">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_219">
+            <IconStyle id="substyle_219">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_219">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_220">
+            <IconStyle id="substyle_220">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_220">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_221">
+            <IconStyle id="substyle_221">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_221">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_222">
+            <IconStyle id="substyle_222">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_222">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_223">
+            <IconStyle id="substyle_223">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_223">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_224">
+            <IconStyle id="substyle_224">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_224">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_225">
+            <IconStyle id="substyle_225">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_225">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_226">
+            <IconStyle id="substyle_226">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_226">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_227">
+            <IconStyle id="substyle_227">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_227">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_228">
+            <IconStyle id="substyle_228">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_228">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_229">
+            <IconStyle id="substyle_229">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_229">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_230">
+            <IconStyle id="substyle_230">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_230">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_231">
+            <IconStyle id="substyle_231">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_231">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_232">
+            <IconStyle id="substyle_232">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_232">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_233">
+            <IconStyle id="substyle_233">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_233">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_234">
+            <IconStyle id="substyle_234">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_234">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_235">
+            <IconStyle id="substyle_235">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_235">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_236">
+            <IconStyle id="substyle_236">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_236">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_237">
+            <IconStyle id="substyle_237">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_237">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_238">
+            <IconStyle id="substyle_238">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_238">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_239">
+            <IconStyle id="substyle_239">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_239">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_240">
+            <IconStyle id="substyle_240">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_240">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_241">
+            <IconStyle id="substyle_241">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_241">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_242">
+            <IconStyle id="substyle_242">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_242">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_243">
+            <IconStyle id="substyle_243">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_243">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_244">
+            <IconStyle id="substyle_244">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_244">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_245">
+            <IconStyle id="substyle_245">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_245">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_246">
+            <IconStyle id="substyle_246">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_246">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_247">
+            <IconStyle id="substyle_247">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_247">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_248">
+            <IconStyle id="substyle_248">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_248">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_249">
+            <IconStyle id="substyle_249">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_249">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_250">
+            <IconStyle id="substyle_250">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_250">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_251">
+            <IconStyle id="substyle_251">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_251">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_252">
+            <IconStyle id="substyle_252">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_252">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_253">
+            <IconStyle id="substyle_253">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_253">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_254">
+            <IconStyle id="substyle_254">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_254">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_255">
+            <IconStyle id="substyle_255">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_255">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_256">
+            <IconStyle id="substyle_256">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_256">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_257">
+            <IconStyle id="substyle_257">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_257">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_258">
+            <IconStyle id="substyle_258">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_258">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_259">
+            <IconStyle id="substyle_259">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_259">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_260">
+            <IconStyle id="substyle_260">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_260">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_261">
+            <IconStyle id="substyle_261">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_261">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_262">
+            <IconStyle id="substyle_262">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_262">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_263">
+            <IconStyle id="substyle_263">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_263">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_264">
+            <IconStyle id="substyle_264">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_264">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_265">
+            <IconStyle id="substyle_265">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_265">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_266">
+            <IconStyle id="substyle_266">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_266">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_267">
+            <IconStyle id="substyle_267">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_267">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_268">
+            <IconStyle id="substyle_268">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_268">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_269">
+            <IconStyle id="substyle_269">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_269">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_270">
+            <IconStyle id="substyle_270">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_270">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_271">
+            <IconStyle id="substyle_271">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_271">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_272">
+            <IconStyle id="substyle_272">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_272">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_273">
+            <IconStyle id="substyle_273">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_273">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_274">
+            <IconStyle id="substyle_274">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_274">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_275">
+            <IconStyle id="substyle_275">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_275">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_276">
+            <IconStyle id="substyle_276">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_276">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_277">
+            <IconStyle id="substyle_277">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_277">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_278">
+            <IconStyle id="substyle_278">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_278">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_279">
+            <IconStyle id="substyle_279">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_279">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_280">
+            <IconStyle id="substyle_280">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_280">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_281">
+            <IconStyle id="substyle_281">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_281">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_282">
+            <IconStyle id="substyle_282">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_282">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_283">
+            <IconStyle id="substyle_283">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_283">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_284">
+            <IconStyle id="substyle_284">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_284">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_285">
+            <IconStyle id="substyle_285">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_285">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_286">
+            <IconStyle id="substyle_286">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_286">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_287">
+            <IconStyle id="substyle_287">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_287">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_288">
+            <IconStyle id="substyle_288">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_288">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_289">
+            <IconStyle id="substyle_289">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_289">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_290">
+            <IconStyle id="substyle_290">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_290">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_291">
+            <IconStyle id="substyle_291">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_291">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_292">
+            <IconStyle id="substyle_292">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_292">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_293">
+            <IconStyle id="substyle_293">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_293">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_294">
+            <IconStyle id="substyle_294">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_294">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_295">
+            <IconStyle id="substyle_295">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_295">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_296">
+            <IconStyle id="substyle_296">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_296">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_297">
+            <IconStyle id="substyle_297">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_297">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
         <Placemark id="feat_173">
             <name>Diabetes Canada</name>
             <description> 11125 124 St, Surrey, BC V3V 4V2, Canada </description>
+            <styleUrl>#stylesel_168</styleUrl>
             <Point id="geom_168">
                 <coordinates>-122.8826242, 49.2044644, 0</coordinates>
             </Point>
@@ -11,6 +1312,7 @@
         <Placemark id="feat_174">
             <name>Diabetes Canada</name>
             <description> 221 Blue Mountain St, Coquitlam, BC V3K 4H3, Canada </description>
+            <styleUrl>#stylesel_169</styleUrl>
             <Point id="geom_169">
                 <coordinates>-122.8727571, 49.2377542, 0</coordinates>
             </Point>
@@ -18,6 +1320,7 @@
         <Placemark id="feat_175">
             <name>Diabetes Canada</name>
             <description> 7271 Gilley Ave, Burnaby, BC V5J 4W9, Canada </description>
+            <styleUrl>#stylesel_170</styleUrl>
             <Point id="geom_170">
                 <coordinates>-122.9722429, 49.2178431, 0</coordinates>
             </Point>
@@ -25,6 +1328,7 @@
         <Placemark id="feat_176">
             <name>Diabetes Canada</name>
             <description> 1301 Lougheed Hwy, Coquitlam, BC V3K 6P9, Canada </description>
+            <styleUrl>#stylesel_171</styleUrl>
             <Point id="geom_171">
                 <coordinates>-122.8559084, 49.2341996, 0</coordinates>
             </Point>
@@ -32,6 +1336,7 @@
         <Placemark id="feat_177">
             <name>Diabetes Canada</name>
             <description> 1301 Lougheed Hwy, Coquitlam, BC V3K 6P9, Canada </description>
+            <styleUrl>#stylesel_172</styleUrl>
             <Point id="geom_172">
                 <coordinates>-122.8559084, 49.2341996, 0</coordinates>
             </Point>
@@ -39,6 +1344,7 @@
         <Placemark id="feat_178">
             <name>Diabetes Canada</name>
             <description> 5462 Marine Dr, Burnaby, BC V5J 3G8, Canada </description>
+            <styleUrl>#stylesel_173</styleUrl>
             <Point id="geom_173">
                 <coordinates>-122.9847111, 49.2051392, 0</coordinates>
             </Point>
@@ -46,6 +1352,7 @@
         <Placemark id="feat_179">
             <name>Diabetes Canada</name>
             <description> 195 Schoolhouse St, Coquitlam, BC V3K, Canada </description>
+            <styleUrl>#stylesel_174</styleUrl>
             <Point id="geom_174">
                 <coordinates>-122.8521877, 49.2358673, 0</coordinates>
             </Point>
@@ -53,6 +1360,7 @@
         <Placemark id="feat_180">
             <name>Diabetes Canada</name>
             <description> 425 Lebleu St, Coquitlam, BC V3K 6X4, Canada </description>
+            <styleUrl>#stylesel_175</styleUrl>
             <Point id="geom_175">
                 <coordinates>-122.866556, 49.24795049999999, 0</coordinates>
             </Point>
@@ -60,6 +1368,7 @@
         <Placemark id="feat_181">
             <name>Diabetes Canada</name>
             <description> 8195 120 St, Delta, BC V4C 6P7, Canada </description>
+            <styleUrl>#stylesel_176</styleUrl>
             <Point id="geom_176">
                 <coordinates>-122.8917866, 49.1517209, 0</coordinates>
             </Point>
@@ -67,6 +1376,7 @@
         <Placemark id="feat_182">
             <name>Diabetes Canada</name>
             <description> 8195 120 St, Delta, BC V4C 6P7, Canada </description>
+            <styleUrl>#stylesel_177</styleUrl>
             <Point id="geom_177">
                 <coordinates>-122.8917866, 49.1517209, 0</coordinates>
             </Point>
@@ -74,6 +1384,7 @@
         <Placemark id="feat_183">
             <name>Diabetes Canada</name>
             <description> 4746 Marine Dr, Burnaby, BC V5J 3G6, Canada </description>
+            <styleUrl>#stylesel_178</styleUrl>
             <Point id="geom_178">
                 <coordinates>-122.9981183, 49.2067411, 0</coordinates>
             </Point>
@@ -81,6 +1392,7 @@
         <Placemark id="feat_184">
             <name>Diabetes Canada</name>
             <description> 2300 Rocket Way, Coquitlam, BC V3K 6Z2, Canada </description>
+            <styleUrl>#stylesel_179</styleUrl>
             <Point id="geom_179">
                 <coordinates>-122.82803, 49.230809, 0</coordinates>
             </Point>
@@ -88,6 +1400,7 @@
         <Placemark id="feat_185">
             <name>Diabetes Canada</name>
             <description> 7990 123a St, Surrey, BC V3W 3W2, Canada </description>
+            <styleUrl>#stylesel_180</styleUrl>
             <Point id="geom_180">
                 <coordinates>-122.8804823, 49.1483815, 0</coordinates>
             </Point>
@@ -95,6 +1408,7 @@
         <Placemark id="feat_186">
             <name>Diabetes Canada</name>
             <description> 952 Como Lake Ave, Coquitlam, BC V3J 3N4, Canada </description>
+            <styleUrl>#stylesel_181</styleUrl>
             <Point id="geom_181">
                 <coordinates>-122.8684186, 49.2633509, 0</coordinates>
             </Point>
@@ -102,6 +1416,7 @@
         <Placemark id="feat_187">
             <name>Diabetes Canada</name>
             <description> 910 Clarke Rd, Port Moody, BC V3H 1L9, Canada </description>
+            <styleUrl>#stylesel_182</styleUrl>
             <Point id="geom_182">
                 <coordinates>-122.876225, 49.271812, 0</coordinates>
             </Point>
@@ -109,6 +1424,7 @@
         <Placemark id="feat_188">
             <name>Diabetes Canada</name>
             <description> 300 Albert St, Port Moody, BC V3H 2M5, Canada </description>
+            <styleUrl>#stylesel_183</styleUrl>
             <Point id="geom_183">
                 <coordinates>-122.866961, 49.274674, 0</coordinates>
             </Point>
@@ -116,6 +1432,7 @@
         <Placemark id="feat_189">
             <name>Diabetes Canada</name>
             <description> 1140 Cecile Dr, Port Moody, BC V3H 1M9, Canada </description>
+            <styleUrl>#stylesel_184</styleUrl>
             <Point id="geom_184">
                 <coordinates>-122.875168, 49.277491, 0</coordinates>
             </Point>
@@ -123,6 +1440,7 @@
         <Placemark id="feat_190">
             <name>Diabetes Canada</name>
             <description> 7050 120 St, Surrey, BC V3W 3M8, Canada </description>
+            <styleUrl>#stylesel_185</styleUrl>
             <Point id="geom_185">
                 <coordinates>-122.8901147, 49.1314761, 0</coordinates>
             </Point>
@@ -130,6 +1448,7 @@
         <Placemark id="feat_191">
             <name>Diabetes Canada</name>
             <description> 1190 Cecile Dr, Port Moody, BC V3H 1N1, Canada </description>
+            <styleUrl>#stylesel_186</styleUrl>
             <Point id="geom_186">
                 <coordinates>-122.8752769, 49.27858699999999, 0</coordinates>
             </Point>
@@ -137,6 +1456,7 @@
         <Placemark id="feat_192">
             <name>Diabetes Canada</name>
             <description> 18691 Westminster Hwy, Richmond, BC V6V 1B1, Canada </description>
+            <styleUrl>#stylesel_187</styleUrl>
             <Point id="geom_187">
                 <coordinates>-123.0152112, 49.1700352, 0</coordinates>
             </Point>
@@ -144,6 +1464,7 @@
         <Placemark id="feat_193">
             <name>Diabetes Canada</name>
             <description> 4800 Still Creek Ave, Burnaby, BC V5C 5V1, Canada </description>
+            <styleUrl>#stylesel_188</styleUrl>
             <Point id="geom_188">
                 <coordinates>-122.996225, 49.2608489, 0</coordinates>
             </Point>
@@ -151,6 +1472,7 @@
         <Placemark id="feat_194">
             <name>Diabetes Canada</name>
             <description> 4800 Still Creek Ave, Burnaby, BC V5C 5V1, Canada </description>
+            <styleUrl>#stylesel_189</styleUrl>
             <Point id="geom_189">
                 <coordinates>-122.996225, 49.2608489, 0</coordinates>
             </Point>
@@ -158,6 +1480,7 @@
         <Placemark id="feat_195">
             <name>Diabetes Canada</name>
             <description> 65 Williams St, Port Moody, BC V3H 2R5, Canada </description>
+            <styleUrl>#stylesel_190</styleUrl>
             <Point id="geom_190">
                 <coordinates>-122.845447, 49.277696, 0</coordinates>
             </Point>
@@ -165,6 +1488,7 @@
         <Placemark id="feat_196">
             <name>Diabetes Canada</name>
             <description> 221 Ioco Rd, Port Moody, BC V3H 5H1, Canada </description>
+            <styleUrl>#stylesel_191</styleUrl>
             <Point id="geom_191">
                 <coordinates>-122.8274155, 49.2837032, 0</coordinates>
             </Point>
@@ -172,6 +1496,7 @@
         <Placemark id="feat_197">
             <name>Diabetes Canada</name>
             <description> 221 Ioco Rd, Port Moody, BC V3H 5H1, Canada </description>
+            <styleUrl>#stylesel_192</styleUrl>
             <Point id="geom_192">
                 <coordinates>-122.8274155, 49.2837032, 0</coordinates>
             </Point>
@@ -179,6 +1504,7 @@
         <Placemark id="feat_198">
             <name>Diabetes Canada</name>
             <description> 1890 Skeena St, Vancouver, BC V5M 4L3, Canada </description>
+            <styleUrl>#stylesel_193</styleUrl>
             <Point id="geom_193">
                 <coordinates>-123.0278553, 49.2674989, 0</coordinates>
             </Point>
@@ -186,6 +1512,7 @@
         <Placemark id="feat_199">
             <name>Diabetes Canada</name>
             <description> 4293 Slocan St, Vancouver, BC V5R 1Z2, Canada </description>
+            <styleUrl>#stylesel_194</styleUrl>
             <Point id="geom_194">
                 <coordinates>-123.0500813, 49.2461416, 0</coordinates>
             </Point>
@@ -193,6 +1520,7 @@
         <Placemark id="feat_200">
             <name>Diabetes Canada</name>
             <description> 101 1st Ave, Port Moody, BC V3H 3A9, Canada </description>
+            <styleUrl>#stylesel_195</styleUrl>
             <Point id="geom_195">
                 <coordinates>-122.8732493, 49.3031262, 0</coordinates>
             </Point>
@@ -200,6 +1528,7 @@
         <Placemark id="feat_201">
             <name>Diabetes Canada</name>
             <description> 1985 Pitt River Rd, Port Coquitlam, BC V3C 1R2, Canada </description>
+            <styleUrl>#stylesel_196</styleUrl>
             <Point id="geom_196">
                 <coordinates>-122.773074, 49.253131, 0</coordinates>
             </Point>
@@ -207,6 +1536,7 @@
         <Placemark id="feat_202">
             <name>Diabetes Canada</name>
             <description> 4096 Oxford St, Burnaby, BC V5C 1C6, Canada </description>
+            <styleUrl>#stylesel_197</styleUrl>
             <Point id="geom_197">
                 <coordinates>-123.0143554, 49.2854167, 0</coordinates>
             </Point>
@@ -214,6 +1544,7 @@
         <Placemark id="feat_203">
             <name>Diabetes Canada</name>
             <description> 4084 Bedwell Bay Rd, Belcarra, BC V3H 4P8, Canada </description>
+            <styleUrl>#stylesel_198</styleUrl>
             <Point id="geom_198">
                 <coordinates>-122.913991, 49.313908, 0</coordinates>
             </Point>
@@ -221,6 +1552,7 @@
         <Placemark id="feat_204">
             <name>Diabetes Canada</name>
             <description> 4084 Bedwell Bay Rd, Belcarra, BC V3H 4P8, Canada </description>
+            <styleUrl>#stylesel_199</styleUrl>
             <Point id="geom_199">
                 <coordinates>-122.913991, 49.313908, 0</coordinates>
             </Point>
@@ -228,6 +1560,7 @@
         <Placemark id="feat_205">
             <name>Diabetes Canada</name>
             <description> 14853 60th Ave, Surrey, BC V3S 1R8, Canada </description>
+            <styleUrl>#stylesel_200</styleUrl>
             <Point id="geom_200">
                 <coordinates>-122.8115496, 49.1121341, 0</coordinates>
             </Point>
@@ -235,6 +1568,7 @@
         <Placemark id="feat_206">
             <name>Diabetes Canada</name>
             <description> 15111 Williams Rd, Richmond, BC V6W 1G9, Canada </description>
+            <styleUrl>#stylesel_201</styleUrl>
             <Point id="geom_201">
                 <coordinates>-123.0571794, 49.1407169, 0</coordinates>
             </Point>
@@ -242,6 +1576,7 @@
         <Placemark id="feat_207">
             <name>Diabetes Canada</name>
             <description> 1384 Deep Cove Rd, North Vancouver, BC V7G 1S5, Canada </description>
+            <styleUrl>#stylesel_202</styleUrl>
             <Point id="geom_202">
                 <coordinates>-122.9533566, 49.3193551, 0</coordinates>
             </Point>
@@ -249,6 +1584,7 @@
         <Placemark id="feat_208">
             <name>Diabetes Canada</name>
             <description> 30 Riverside Dr, North Vancouver, BC V7H 1T4, Canada </description>
+            <styleUrl>#stylesel_203</styleUrl>
             <Point id="geom_203">
                 <coordinates>-123.017962, 49.30111300000001, 0</coordinates>
             </Point>
@@ -256,6 +1592,7 @@
         <Placemark id="feat_209">
             <name>Diabetes Canada</name>
             <description> 30 Riverside Dr, North Vancouver, BC V7H 1T4, Canada </description>
+            <styleUrl>#stylesel_204</styleUrl>
             <Point id="geom_204">
                 <coordinates>-123.017962, 49.30111300000001, 0</coordinates>
             </Point>
@@ -263,6 +1600,7 @@
         <Placemark id="feat_210">
             <name>Diabetes Canada</name>
             <description> 2411 Mt Seymour Pkwy, North Vancouver, BC V7H 2Y9, Canada </description>
+            <styleUrl>#stylesel_205</styleUrl>
             <Point id="geom_205">
                 <coordinates>-123.0032601, 49.313575, 0</coordinates>
             </Point>
@@ -270,6 +1608,7 @@
         <Placemark id="feat_211">
             <name>Diabetes Canada</name>
             <description> 11131 Bridgeport Rd, Richmond, BC V6X 1T3, Canada </description>
+            <styleUrl>#stylesel_206</styleUrl>
             <Point id="geom_206">
                 <coordinates>-123.1009971, 49.19241299999999, 0</coordinates>
             </Point>
@@ -277,6 +1616,7 @@
         <Placemark id="feat_212">
             <name>Diabetes Canada</name>
             <description> 69 W 69th Ave, Vancouver, BC V5X 2W6, Canada </description>
+            <styleUrl>#stylesel_207</styleUrl>
             <Point id="geom_207">
                 <coordinates>-123.1086579, 49.2098021, 0</coordinates>
             </Point>
@@ -284,6 +1624,7 @@
         <Placemark id="feat_213">
             <name>Diabetes Canada</name>
             <description> 8600 No 5 Rd, Richmond, BC V6Y 2V4, Canada </description>
+            <styleUrl>#stylesel_208</styleUrl>
             <Point id="geom_208">
                 <coordinates>-123.089368, 49.14995800000001, 0</coordinates>
             </Point>
@@ -291,6 +1632,7 @@
         <Placemark id="feat_214">
             <name>Diabetes Canada</name>
             <description> 333 Seymour Blvd, North Vancouver, BC V7J 2J4, Canada </description>
+            <styleUrl>#stylesel_209</styleUrl>
             <Point id="geom_209">
                 <coordinates>-123.0237872, 49.3114325, 0</coordinates>
             </Point>
@@ -298,6 +1640,7 @@
         <Placemark id="feat_215">
             <name>Diabetes Canada</name>
             <description> 333 Seymour Blvd, North Vancouver, BC V7J 2J4, Canada </description>
+            <styleUrl>#stylesel_210</styleUrl>
             <Point id="geom_210">
                 <coordinates>-123.0237872, 49.3114325, 0</coordinates>
             </Point>
@@ -305,6 +1648,7 @@
         <Placemark id="feat_216">
             <name>Diabetes Canada</name>
             <description> 5400 72 St, Delta, BC V4K 3N3, Canada </description>
+            <styleUrl>#stylesel_211</styleUrl>
             <Point id="geom_211">
                 <coordinates>-123.0210211, 49.0980145, 0</coordinates>
             </Point>
@@ -312,6 +1656,7 @@
         <Placemark id="feat_217">
             <name>Diabetes Canada</name>
             <description> 5400 72 St, Delta, BC V4K 3N3, Canada </description>
+            <styleUrl>#stylesel_212</styleUrl>
             <Point id="geom_212">
                 <coordinates>-123.0210211, 49.0980145, 0</coordinates>
             </Point>
@@ -319,6 +1664,7 @@
         <Placemark id="feat_218">
             <name>Diabetes Canada</name>
             <description> 780 Premier St, North Vancouver, BC V7J, Canada </description>
+            <styleUrl>#stylesel_213</styleUrl>
             <Point id="geom_213">
                 <coordinates>-123.0271028, 49.3140638, 0</coordinates>
             </Point>
@@ -326,6 +1672,7 @@
         <Placemark id="feat_219">
             <name>Diabetes Canada</name>
             <description> 377 W Kent Ave N, Vancouver, BC V5X 4V1, Canada </description>
+            <styleUrl>#stylesel_214</styleUrl>
             <Point id="geom_214">
                 <coordinates>-123.1142691, 49.2071146, 0</coordinates>
             </Point>
@@ -333,6 +1680,7 @@
         <Placemark id="feat_220">
             <name>Diabetes Canada</name>
             <description> 377 W Kent Ave N, Vancouver, BC V5X 4V1, Canada </description>
+            <styleUrl>#stylesel_215</styleUrl>
             <Point id="geom_215">
                 <coordinates>-123.1142691, 49.2071146, 0</coordinates>
             </Point>
@@ -340,6 +1688,7 @@
         <Placemark id="feat_221">
             <name>Diabetes Canada</name>
             <description> 11791 King Rd, Richmond, BC V7A 3B6, Canada </description>
+            <styleUrl>#stylesel_216</styleUrl>
             <Point id="geom_216">
                 <coordinates>-123.0926801, 49.1447993, 0</coordinates>
             </Point>
@@ -347,6 +1696,7 @@
         <Placemark id="feat_222">
             <name>Diabetes Canada</name>
             <description> 110, 11020 Horseshoe Way, Richmond, BC V7A 4V5, Canada </description>
+            <styleUrl>#stylesel_217</styleUrl>
             <Point id="geom_217">
                 <coordinates>-123.0928946, 49.1308742, 0</coordinates>
             </Point>
@@ -354,6 +1704,7 @@
         <Placemark id="feat_223">
             <name>Diabetes Canada</name>
             <description> 438 3rd St E, North Vancouver, BC V7L 1G2, Canada </description>
+            <styleUrl>#stylesel_218</styleUrl>
             <Point id="geom_218">
                 <coordinates>-123.0663691, 49.3090652, 0</coordinates>
             </Point>
@@ -361,6 +1712,7 @@
         <Placemark id="feat_224">
             <name>Diabetes Canada</name>
             <description> 19181 Lougheed Hwy, Pitt Meadows, BC V3Y 2J5, Canada </description>
+            <styleUrl>#stylesel_219</styleUrl>
             <Point id="geom_219">
                 <coordinates>-122.6898171, 49.23163479999999, 0</coordinates>
             </Point>
@@ -368,6 +1720,7 @@
         <Placemark id="feat_225">
             <name>Diabetes Canada</name>
             <description> 2916 McBride Ave, Surrey, BC V4A 3G2, Canada </description>
+            <styleUrl>#stylesel_220</styleUrl>
             <Point id="geom_220">
                 <coordinates>-122.8848923, 49.0549289, 0</coordinates>
             </Point>
@@ -375,6 +1728,7 @@
         <Placemark id="feat_226">
             <name>Diabetes Canada</name>
             <description> 8191 St Albans Rd, Richmond, BC V6Y 2L2, Canada </description>
+            <styleUrl>#stylesel_221</styleUrl>
             <Point id="geom_221">
                 <coordinates>-123.131435, 49.153823, 0</coordinates>
             </Point>
@@ -382,6 +1736,7 @@
         <Placemark id="feat_227">
             <name>Diabetes Canada</name>
             <description> 142 3rd St W, North Vancouver, BC V7L 1E6, Canada </description>
+            <styleUrl>#stylesel_222</styleUrl>
             <Point id="geom_222">
                 <coordinates>-123.0786111, 49.314105, 0</coordinates>
             </Point>
@@ -389,6 +1744,7 @@
         <Placemark id="feat_228">
             <name>Diabetes Canada</name>
             <description> 12758 28 Ave, Surrey, BC V4A 2P4, Canada </description>
+            <styleUrl>#stylesel_223</styleUrl>
             <Point id="geom_223">
                 <coordinates>-122.868398, 49.05280190000001, 0</coordinates>
             </Point>
@@ -396,6 +1752,7 @@
         <Placemark id="feat_229">
             <name>Diabetes Canada</name>
             <description> 1245 Lonsdale Ave, North Vancouver, BC V7M 2H5, Canada </description>
+            <styleUrl>#stylesel_224</styleUrl>
             <Point id="geom_224">
                 <coordinates>-123.0728423, 49.3197445, 0</coordinates>
             </Point>
@@ -403,6 +1760,7 @@
         <Placemark id="feat_230">
             <name>Diabetes Canada</name>
             <description> 1441 St Georges Ave, North Vancouver, BC V7L 3J4, Canada </description>
+            <styleUrl>#stylesel_225</styleUrl>
             <Point id="geom_225">
                 <coordinates>-123.0693923, 49.321794, 0</coordinates>
             </Point>
@@ -410,6 +1768,7 @@
         <Placemark id="feat_231">
             <name>Diabetes Canada</name>
             <description> 5425 Ladner Trunk Rd, Delta, BC V4K 1W6, Canada </description>
+            <styleUrl>#stylesel_226</styleUrl>
             <Point id="geom_226">
                 <coordinates>-123.0729938, 49.0906099, 0</coordinates>
             </Point>
@@ -417,6 +1776,7 @@
         <Placemark id="feat_232">
             <name>Diabetes Canada</name>
             <description> 18765 Fraser Hwy, Surrey, BC V3S 7Y3, Canada </description>
+            <styleUrl>#stylesel_227</styleUrl>
             <Point id="geom_227">
                 <coordinates>-122.7023386, 49.1254976, 0</coordinates>
             </Point>
@@ -424,6 +1784,7 @@
         <Placemark id="feat_233">
             <name>Diabetes Canada</name>
             <description> 6500 Gilbert Rd, Richmond, BC V7C, Canada </description>
+            <styleUrl>#stylesel_228</styleUrl>
             <Point id="geom_228">
                 <coordinates>-123.1470524, 49.16735250000001, 0</coordinates>
             </Point>
@@ -431,6 +1792,7 @@
         <Placemark id="feat_234">
             <name>Diabetes Canada</name>
             <description> 5124 48 Ave, Delta, BC V4K 2X8, Canada </description>
+            <styleUrl>#stylesel_229</styleUrl>
             <Point id="geom_229">
                 <coordinates>-123.0816971, 49.09005759999999, 0</coordinates>
             </Point>
@@ -438,6 +1800,7 @@
         <Placemark id="feat_235">
             <name>Diabetes Canada</name>
             <description> 6800 Azure Rd, Richmond, BC V7C 2S8, Canada </description>
+            <styleUrl>#stylesel_230</styleUrl>
             <Point id="geom_230">
                 <coordinates>-123.1504411, 49.1662055, 0</coordinates>
             </Point>
@@ -445,6 +1808,7 @@
         <Placemark id="feat_236">
             <name>Diabetes Canada</name>
             <description> 20165 91a Ave, Langley, BC V1M 3A2, Canada </description>
+            <styleUrl>#stylesel_231</styleUrl>
             <Point id="geom_231">
                 <coordinates>-122.6634894, 49.16921019999999, 0</coordinates>
             </Point>
@@ -452,6 +1816,7 @@
         <Placemark id="feat_237">
             <name>Diabetes Canada</name>
             <description> 915 W 1st St, North Vancouver, BC V7P 1A4, Canada </description>
+            <styleUrl>#stylesel_232</styleUrl>
             <Point id="geom_232">
                 <coordinates>-123.0991201, 49.3176432, 0</coordinates>
             </Point>
@@ -459,6 +1824,7 @@
         <Placemark id="feat_238">
             <name>Diabetes Canada</name>
             <description> 7111 No 2 Rd, Richmond, BC V7C 3L7, Canada </description>
+            <styleUrl>#stylesel_233</styleUrl>
             <Point id="geom_233">
                 <coordinates>-123.1592131, 49.16162569999999, 0</coordinates>
             </Point>
@@ -466,6 +1832,7 @@
         <Placemark id="feat_239">
             <name>Diabetes Canada</name>
             <description> 9175 206 St, Langley, BC V1M 2X2, Canada </description>
+            <styleUrl>#stylesel_234</styleUrl>
             <Point id="geom_234">
                 <coordinates>-122.6519997, 49.1688331, 0</coordinates>
             </Point>
@@ -473,6 +1840,7 @@
         <Placemark id="feat_240">
             <name>Diabetes Canada</name>
             <description> 5011 Granville Ave, Richmond, BC V7C 1E6, Canada </description>
+            <styleUrl>#stylesel_235</styleUrl>
             <Point id="geom_235">
                 <coordinates>-123.16889, 49.163413, 0</coordinates>
             </Point>
@@ -480,6 +1848,7 @@
         <Placemark id="feat_241">
             <name>Diabetes Canada</name>
             <description> 7360 Lombard Rd, Richmond, BC V7C 3M9, Canada </description>
+            <styleUrl>#stylesel_236</styleUrl>
             <Point id="geom_236">
                 <coordinates>-123.1669981, 49.1586466, 0</coordinates>
             </Point>
@@ -487,6 +1856,7 @@
         <Placemark id="feat_242">
             <name>Diabetes Canada</name>
             <description> 5555 192 St, Surrey, BC V3S 8E5, Canada </description>
+            <styleUrl>#stylesel_237</styleUrl>
             <Point id="geom_237">
                 <coordinates>-122.6917009, 49.1038462, 0</coordinates>
             </Point>
@@ -494,6 +1864,7 @@
         <Placemark id="feat_243">
             <name>Diabetes Canada</name>
             <description> 6020 Steveston Hwy, Richmond, BC V7E 2K8, Canada </description>
+            <styleUrl>#stylesel_238</styleUrl>
             <Point id="geom_238">
                 <coordinates>-123.158364, 49.1332743, 0</coordinates>
             </Point>
@@ -501,6 +1872,7 @@
         <Placemark id="feat_244">
             <name>Diabetes Canada</name>
             <description> 19851 Willowbrook Dr, Langley, BC V2Y 1A7, Canada </description>
+            <styleUrl>#stylesel_239</styleUrl>
             <Point id="geom_239">
                 <coordinates>-122.6733786, 49.1184331, 0</coordinates>
             </Point>
@@ -508,6 +1880,7 @@
         <Placemark id="feat_245">
             <name>Diabetes Canada</name>
             <description> 19575 BC-10, Surrey, BC V3S, Canada </description>
+            <styleUrl>#stylesel_240</styleUrl>
             <Point id="geom_240">
                 <coordinates>-122.680803, 49.1102869, 0</coordinates>
             </Point>
@@ -515,6 +1888,7 @@
         <Placemark id="feat_246">
             <name>Diabetes Canada</name>
             <description> 10451 Lassam Rd, Richmond, BC V7E, Canada </description>
+            <styleUrl>#stylesel_241</styleUrl>
             <Point id="geom_241">
                 <coordinates>-123.1639696, 49.13680610000001, 0</coordinates>
             </Point>
@@ -522,6 +1896,7 @@
         <Placemark id="feat_247">
             <name>Diabetes Canada</name>
             <description> 4440 Blundell Rd, Richmond, BC V6W, Canada </description>
+            <styleUrl>#stylesel_242</styleUrl>
             <Point id="geom_242">
                 <coordinates>-123.1749534, 49.1552281, 0</coordinates>
             </Point>
@@ -529,6 +1904,7 @@
         <Placemark id="feat_248">
             <name>Diabetes Canada</name>
             <description> 20688 84 Ave, Langley, BC V2Y 2B5, Canada </description>
+            <styleUrl>#stylesel_243</styleUrl>
             <Point id="geom_243">
                 <coordinates>-122.6490733, 49.1553104, 0</coordinates>
             </Point>
@@ -536,6 +1912,7 @@
         <Placemark id="feat_249">
             <name>Diabetes Canada</name>
             <description> 3012 Edgemont Blvd, North Vancouver, BC V7R 2N5, Canada </description>
+            <styleUrl>#stylesel_244</styleUrl>
             <Point id="geom_244">
                 <coordinates>-123.1005451, 49.33679170000001, 0</coordinates>
             </Point>
@@ -543,6 +1920,7 @@
         <Placemark id="feat_250">
             <name>Diabetes Canada</name>
             <description> 1595 Nichol Rd, White Rock, BC V4B 3C2, Canada </description>
+            <styleUrl>#stylesel_245</styleUrl>
             <Point id="geom_245">
                 <coordinates>-122.834705, 49.0309503, 0</coordinates>
             </Point>
@@ -550,6 +1928,7 @@
         <Placemark id="feat_251">
             <name>Diabetes Canada</name>
             <description> 1625 McGuire Ave, North Vancouver, BC V7P 3A9, Canada </description>
+            <styleUrl>#stylesel_246</styleUrl>
             <Point id="geom_246">
                 <coordinates>-123.120553, 49.324488, 0</coordinates>
             </Point>
@@ -557,6 +1936,7 @@
         <Placemark id="feat_252">
             <name>Diabetes Canada</name>
             <description> 9403 212 St, Langley, BC V1M 1M1, Canada </description>
+            <styleUrl>#stylesel_247</styleUrl>
             <Point id="geom_247">
                 <coordinates>-122.6348354, 49.1735222, 0</coordinates>
             </Point>
@@ -564,6 +1944,7 @@
         <Placemark id="feat_253">
             <name>Diabetes Canada</name>
             <description> 21020 83 Ave, Langley, BC V2Y, Canada </description>
+            <styleUrl>#stylesel_248</styleUrl>
             <Point id="geom_248">
                 <coordinates>-122.6400306, 49.1526296, 0</coordinates>
             </Point>
@@ -571,6 +1952,7 @@
         <Placemark id="feat_254">
             <name>Diabetes Canada</name>
             <description> 4511 Hermitage Dr, Richmond, BC V7E 4T1, Canada </description>
+            <styleUrl>#stylesel_249</styleUrl>
             <Point id="geom_249">
                 <coordinates>-123.175764, 49.137254, 0</coordinates>
             </Point>
@@ -578,6 +1960,7 @@
         <Placemark id="feat_255">
             <name>Diabetes Canada</name>
             <description> 20965 77a Ave, Langley, BC V2Y, Canada </description>
+            <styleUrl>#stylesel_250</styleUrl>
             <Point id="geom_250">
                 <coordinates>-122.6427799, 49.1430937, 0</coordinates>
             </Point>
@@ -585,6 +1968,7 @@
         <Placemark id="feat_256">
             <name>Diabetes Canada</name>
             <description> 20793 72 Ave, Langley, BC V2Y, Canada </description>
+            <styleUrl>#stylesel_251</styleUrl>
             <Point id="geom_251">
                 <coordinates>-122.6464187, 49.1334182, 0</coordinates>
             </Point>
@@ -592,6 +1976,7 @@
         <Placemark id="feat_257">
             <name>Diabetes Canada</name>
             <description> 20793 72 Ave, Langley, BC V2Y, Canada </description>
+            <styleUrl>#stylesel_252</styleUrl>
             <Point id="geom_252">
                 <coordinates>-122.6464187, 49.1334182, 0</coordinates>
             </Point>
@@ -599,6 +1984,7 @@
         <Placemark id="feat_258">
             <name>Diabetes Canada</name>
             <description> 21555 91 Ave, Langley, BC V1M 3Z3, Canada </description>
+            <styleUrl>#stylesel_253</styleUrl>
             <Point id="geom_253">
                 <coordinates>-122.6255981, 49.1683149, 0</coordinates>
             </Point>
@@ -606,6 +1992,7 @@
         <Placemark id="feat_259">
             <name>Diabetes Canada</name>
             <description> 4251 Garry St, Richmond, BC V7E 2T9, Canada </description>
+            <styleUrl>#stylesel_254</styleUrl>
             <Point id="geom_254">
                 <coordinates>-123.178867, 49.1306812, 0</coordinates>
             </Point>
@@ -613,6 +2000,7 @@
         <Placemark id="feat_260">
             <name>Diabetes Canada</name>
             <description> 4320 Moncton St, Richmond, BC V7E 6T4, Canada </description>
+            <styleUrl>#stylesel_255</styleUrl>
             <Point id="geom_255">
                 <coordinates>-123.178203, 49.124849, 0</coordinates>
             </Point>
@@ -620,6 +2008,7 @@
         <Placemark id="feat_261">
             <name>Diabetes Canada</name>
             <description> 4320 Moncton St, Richmond, BC V7E 6T4, Canada </description>
+            <styleUrl>#stylesel_256</styleUrl>
             <Point id="geom_256">
                 <coordinates>-123.178203, 49.124849, 0</coordinates>
             </Point>
@@ -627,6 +2016,7 @@
         <Placemark id="feat_262">
             <name>Diabetes Canada</name>
             <description> 20190 48 Ave, Langley, BC V3A 5M5, Canada </description>
+            <styleUrl>#stylesel_257</styleUrl>
             <Point id="geom_257">
                 <coordinates>-122.6641586, 49.0893715, 0</coordinates>
             </Point>
@@ -634,6 +2024,7 @@
         <Placemark id="feat_263">
             <name>Diabetes Canada</name>
             <description> 12241 224 St, Maple Ridge, BC V2X 8Y8, Canada </description>
+            <styleUrl>#stylesel_258</styleUrl>
             <Point id="geom_258">
                 <coordinates>-122.6019535, 49.2247876, 0</coordinates>
             </Point>
@@ -641,6 +2032,7 @@
         <Placemark id="feat_264">
             <name>Diabetes Canada</name>
             <description> 5636 12 Ave, Delta, BC V4L 1C4, Canada </description>
+            <styleUrl>#stylesel_259</styleUrl>
             <Point id="geom_259">
                 <coordinates>-123.0675988, 49.0244994, 0</coordinates>
             </Point>
@@ -648,6 +2040,7 @@
         <Placemark id="feat_265">
             <name>Diabetes Canada</name>
             <description> 20390 40 Ave, Langley, BC V3A 2X1, Canada </description>
+            <styleUrl>#stylesel_260</styleUrl>
             <Point id="geom_260">
                 <coordinates>-122.659465, 49.074439, 0</coordinates>
             </Point>
@@ -655,6 +2048,7 @@
         <Placemark id="feat_266">
             <name>Diabetes Canada</name>
             <description> 4471 207a St, Langley, BC V3A 5V8, Canada </description>
+            <styleUrl>#stylesel_261</styleUrl>
             <Point id="geom_261">
                 <coordinates>-122.6494835, 49.0834037, 0</coordinates>
             </Point>
@@ -662,6 +2056,7 @@
         <Placemark id="feat_267">
             <name>Diabetes Canada</name>
             <description> 1395 176 St, Surrey, BC V3S 9S7, Canada </description>
+            <styleUrl>#stylesel_262</styleUrl>
             <Point id="geom_262">
                 <coordinates>-122.735677, 49.027067, 0</coordinates>
             </Point>
@@ -669,6 +2064,7 @@
         <Placemark id="feat_268">
             <name>Diabetes Canada</name>
             <description> 7600 Glover Rd, Langley, BC V2Y 1Y1, Canada </description>
+            <styleUrl>#stylesel_263</styleUrl>
             <Point id="geom_263">
                 <coordinates>-122.6020304, 49.1406699, 0</coordinates>
             </Point>
@@ -676,6 +2072,7 @@
         <Placemark id="feat_269">
             <name>Diabetes Canada</name>
             <description> 7600 Glover Rd, Langley, BC V2Y 1Y1, Canada </description>
+            <styleUrl>#stylesel_264</styleUrl>
             <Point id="geom_264">
                 <coordinates>-122.6020304, 49.1406699, 0</coordinates>
             </Point>
@@ -683,6 +2080,7 @@
         <Placemark id="feat_270">
             <name>Diabetes Canada</name>
             <description> 21789 50 Ave, Langley, BC V3A 3T2, Canada </description>
+            <styleUrl>#stylesel_265</styleUrl>
             <Point id="geom_265">
                 <coordinates>-122.6198682, 49.0935211, 0</coordinates>
             </Point>
@@ -690,6 +2088,7 @@
         <Placemark id="feat_271">
             <name>Diabetes Canada</name>
             <description> 1614 184 St, Surrey, BC V3S 9V2, Canada </description>
+            <styleUrl>#stylesel_266</styleUrl>
             <Point id="geom_266">
                 <coordinates>-122.713115, 49.03145199999999, 0</coordinates>
             </Point>
@@ -697,6 +2096,7 @@
         <Placemark id="feat_272">
             <name>Diabetes Canada</name>
             <description> 8877 Bartlett St, Langley, BC V1M, Canada </description>
+            <styleUrl>#stylesel_267</styleUrl>
             <Point id="geom_267">
                 <coordinates>-122.5822288, 49.16377749999999, 0</coordinates>
             </Point>
@@ -704,6 +2104,7 @@
         <Placemark id="feat_273">
             <name>Diabetes Canada</name>
             <description> 21255 42 Ave, Langley, BC V3A 7W4, Canada </description>
+            <styleUrl>#stylesel_268</styleUrl>
             <Point id="geom_268">
                 <coordinates>-122.6357424, 49.0784472, 0</coordinates>
             </Point>
@@ -711,6 +2112,7 @@
         <Placemark id="feat_274">
             <name>Diabetes Canada</name>
             <description> 22196 50 Ave, Langley, BC V2Y 2V4, Canada </description>
+            <styleUrl>#stylesel_269</styleUrl>
             <Point id="geom_269">
                 <coordinates>-122.6078811, 49.09272720000001, 0</coordinates>
             </Point>
@@ -718,6 +2120,7 @@
         <Placemark id="feat_275">
             <name>Diabetes Canada</name>
             <description> 22144 Old Yale Rd, Langley, BC V2Z 1B5, Canada </description>
+            <styleUrl>#stylesel_270</styleUrl>
             <Point id="geom_270">
                 <coordinates>-122.61004, 49.08439, 0</coordinates>
             </Point>
@@ -725,6 +2128,7 @@
         <Placemark id="feat_276">
             <name>Diabetes Canada</name>
             <description> 20785 24 Ave, Langley, BC V2Z 2B4, Canada </description>
+            <styleUrl>#stylesel_271</styleUrl>
             <Point id="geom_271">
                 <coordinates>-122.647666, 49.046408, 0</coordinates>
             </Point>
@@ -732,6 +2136,7 @@
         <Placemark id="feat_277">
             <name>Diabetes Canada</name>
             <description> 23210 Fraser Hwy, Langley Twp, BC V2Z, Canada </description>
+            <styleUrl>#stylesel_272</styleUrl>
             <Point id="geom_272">
                 <coordinates>-122.5800819, 49.0817777, 0</coordinates>
             </Point>
@@ -739,6 +2144,7 @@
         <Placemark id="feat_278">
             <name>Diabetes Canada</name>
             <description> 23422 47 Ave, Langley, BC V2Z 2S3, Canada </description>
+            <styleUrl>#stylesel_273</styleUrl>
             <Point id="geom_273">
                 <coordinates>-122.5745082, 49.08681170000001, 0</coordinates>
             </Point>
@@ -746,6 +2152,7 @@
         <Placemark id="feat_279">
             <name>Diabetes Canada</name>
             <description> 23752 52 Ave, Langley, BC V2Z 2P3, Canada </description>
+            <styleUrl>#stylesel_274</styleUrl>
             <Point id="geom_274">
                 <coordinates>-122.5659788, 49.0962384, 0</coordinates>
             </Point>
@@ -753,6 +2160,7 @@
         <Placemark id="feat_280">
             <name>Diabetes Canada</name>
             <description> 5370 248 St, Aldergrove, BC V4W 1A7, Canada </description>
+            <styleUrl>#stylesel_275</styleUrl>
             <Point id="geom_275">
                 <coordinates>-122.5366672, 49.1001316, 0</coordinates>
             </Point>
@@ -760,6 +2168,7 @@
         <Placemark id="feat_281">
             <name>Diabetes Canada</name>
             <description> 1460 224 St, Langley, BC V2Z 1K6, Canada </description>
+            <styleUrl>#stylesel_276</styleUrl>
             <Point id="geom_276">
                 <coordinates>-122.6036866, 49.0308298, 0</coordinates>
             </Point>
@@ -767,6 +2176,7 @@
         <Placemark id="feat_282">
             <name>Diabetes Canada</name>
             <description> 23851 24 Ave, Langley, BC V2Z 3A2, Canada </description>
+            <styleUrl>#stylesel_277</styleUrl>
             <Point id="geom_277">
                 <coordinates>-122.5600887, 49.0456844, 0</coordinates>
             </Point>
@@ -774,6 +2184,7 @@
         <Placemark id="feat_283">
             <name>Diabetes Canada</name>
             <description> 26845 27 Ave, Aldergrove, BC V4W 3C1, Canada </description>
+            <styleUrl>#stylesel_278</styleUrl>
             <Point id="geom_278">
                 <coordinates>-122.4791064, 49.0517934, 0</coordinates>
             </Point>
@@ -781,6 +2192,7 @@
         <Placemark id="feat_284">
             <name>Diabetes Canada</name>
             <description> 30640 Blueridge Dr, Abbotsford, BC V2T 5W3, Canada </description>
+            <styleUrl>#stylesel_279</styleUrl>
             <Point id="geom_279">
                 <coordinates>-122.3751089, 49.0655435, 0</coordinates>
             </Point>
@@ -788,6 +2200,7 @@
         <Placemark id="feat_285">
             <name>Diabetes Canada</name>
             <description> 32065 Van Velzen Ave, Mission, BC V2V 2G6, Canada </description>
+            <styleUrl>#stylesel_280</styleUrl>
             <Point id="geom_280">
                 <coordinates>-122.3366893, 49.1417307, 0</coordinates>
             </Point>
@@ -795,6 +2208,7 @@
         <Placemark id="feat_286">
             <name>Diabetes Canada</name>
             <description> 32444 7th Ave, Mission, BC V2V 2B9, Canada </description>
+            <styleUrl>#stylesel_281</styleUrl>
             <Point id="geom_281">
                 <coordinates>-122.3261882, 49.1397378, 0</coordinates>
             </Point>
@@ -802,6 +2216,7 @@
         <Placemark id="feat_287">
             <name>Diabetes Canada</name>
             <description> 32557 Best Ave, Mission, BC V2V, Canada </description>
+            <styleUrl>#stylesel_282</styleUrl>
             <Point id="geom_282">
                 <coordinates>-122.3213898, 49.1518299, 0</coordinates>
             </Point>
@@ -809,6 +2224,7 @@
         <Placemark id="feat_288">
             <name>Diabetes Canada</name>
             <description> 8955 Cedar St, Mission, BC V4S 1A3, Canada </description>
+            <styleUrl>#stylesel_283</styleUrl>
             <Point id="geom_283">
                 <coordinates>-122.3159825, 49.16463539999999, 0</coordinates>
             </Point>
@@ -816,6 +2232,7 @@
         <Placemark id="feat_289">
             <name>Diabetes Canada</name>
             <description> 32865 Cherry Ave, Mission, BC V2V 2V1, Canada </description>
+            <styleUrl>#stylesel_284</styleUrl>
             <Point id="geom_284">
                 <coordinates>-122.3141487, 49.1551234, 0</coordinates>
             </Point>
@@ -823,6 +2240,7 @@
         <Placemark id="feat_290">
             <name>Diabetes Canada</name>
             <description> 2140 Martens St, Abbotsford, BC V2T 6M6, Canada </description>
+            <styleUrl>#stylesel_285</styleUrl>
             <Point id="geom_285">
                 <coordinates>-122.35101, 49.041079, 0</coordinates>
             </Point>
@@ -830,6 +2248,7 @@
         <Placemark id="feat_291">
             <name>Diabetes Canada</name>
             <description> 33419 Cherry Ave, Mission, BC V2V 2V3, Canada </description>
+            <styleUrl>#stylesel_286</styleUrl>
             <Point id="geom_286">
                 <coordinates>-122.2993656, 49.1548731, 0</coordinates>
             </Point>
@@ -837,6 +2256,7 @@
         <Placemark id="feat_292">
             <name>Diabetes Canada</name>
             <description> 7229 Mershon St, Mission, BC V2V 3Y2, Canada </description>
+            <styleUrl>#stylesel_287</styleUrl>
             <Point id="geom_287">
                 <coordinates>-122.3037323, 49.13286410000001, 0</coordinates>
             </Point>
@@ -844,6 +2264,7 @@
         <Placemark id="feat_293">
             <name>Diabetes Canada</name>
             <description> 33638 7th Ave, Mission, BC V2V 2G1, Canada </description>
+            <styleUrl>#stylesel_288</styleUrl>
             <Point id="geom_288">
                 <coordinates>-122.2931193, 49.1395765, 0</coordinates>
             </Point>
@@ -851,6 +2272,7 @@
         <Placemark id="feat_294">
             <name>Diabetes Canada</name>
             <description> 33888 Dewdney Trunk Rd, Mission, BC V2V 6Y4, Canada </description>
+            <styleUrl>#stylesel_289</styleUrl>
             <Point id="geom_289">
                 <coordinates>-122.2859742, 49.1580288, 0</coordinates>
             </Point>
@@ -858,6 +2280,7 @@
         <Placemark id="feat_295">
             <name>Diabetes Canada</name>
             <description> 390 Campbell Bay Rd, Mayne Island, BC V0N 2J1, Canada </description>
+            <styleUrl>#stylesel_290</styleUrl>
             <Point id="geom_290">
                 <coordinates>-123.2792968, 48.8565438, 0</coordinates>
             </Point>
@@ -865,6 +2288,7 @@
         <Placemark id="feat_296">
             <name>Diabetes Canada</name>
             <description> 390 Campbell Bay Rd, Mayne Island, BC V0N 2J1, Canada </description>
+            <styleUrl>#stylesel_291</styleUrl>
             <Point id="geom_291">
                 <coordinates>-123.2792968, 48.8565438, 0</coordinates>
             </Point>
@@ -872,6 +2296,7 @@
         <Placemark id="feat_297">
             <name>Diabetes Canada</name>
             <description> 33670 Valley Rd, Abbotsford, BC V2S 7B3, Canada </description>
+            <styleUrl>#stylesel_292</styleUrl>
             <Point id="geom_292">
                 <coordinates>-122.2938628, 49.068693, 0</coordinates>
             </Point>
@@ -879,6 +2304,7 @@
         <Placemark id="feat_298">
             <name>Diabetes Canada</name>
             <description> 34800 Dewdney Trunk Rd, Mission, BC V2V 5V6, Canada </description>
+            <styleUrl>#stylesel_293</styleUrl>
             <Point id="geom_293">
                 <coordinates>-122.259238, 49.1535002, 0</coordinates>
             </Point>
@@ -886,6 +2312,7 @@
         <Placemark id="feat_299">
             <name>Diabetes Canada</name>
             <description> 33670 Valley Rd, Abbotsford, BC V2S 7B3, Canada </description>
+            <styleUrl>#stylesel_294</styleUrl>
             <Point id="geom_294">
                 <coordinates>-122.2938628, 49.068693, 0</coordinates>
             </Point>
@@ -893,6 +2320,7 @@
         <Placemark id="feat_300">
             <name>Diabetes Canada</name>
             <description> 10814 FM681, Mission, TX 78573, USA </description>
+            <styleUrl>#stylesel_295</styleUrl>
             <Point id="geom_295">
                 <coordinates>-98.33278130000001, 26.3563694, 0</coordinates>
             </Point>
@@ -900,6 +2328,7 @@
         <Placemark id="feat_301">
             <name>Diabetes Canada</name>
             <description> 14100 Stave Lake Rd, Fraser Valley F, BC V2V 0A5, Canada </description>
+            <styleUrl>#stylesel_296</styleUrl>
             <Point id="geom_296">
                 <coordinates>-122.2443795, 49.2572042, 0</coordinates>
             </Point>
@@ -907,6 +2336,7 @@
         <Placemark id="feat_302">
             <name>Diabetes Canada</name>
             <description> 33844 King Rd, Abbotsford, BC V2S 7M7, Canada </description>
+            <styleUrl>#stylesel_297</styleUrl>
             <Point id="geom_297">
                 <coordinates>-122.2846821, 49.02838759999999, 0</coordinates>
             </Point>

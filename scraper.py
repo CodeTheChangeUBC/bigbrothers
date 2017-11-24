@@ -32,7 +32,6 @@ def openinterface ():
 
 def geocode (companyname,lst):
     kml = simplekml.Kml()
-
     for item in lst:
         if item.getCoordinate():
             coordinateRaw = item.getCoordinate()
@@ -70,7 +69,7 @@ def geocode (companyname,lst):
                          (coordinate[0], coordinate[1], coordinate[2])], description=item.getContents())  # lon, lat, optional height
 
             if companyname == "SalvationArmy":
-                pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png'  #teal
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png'  #teal
             if companyname == "InclusionBC":
                 pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png'          #yellow
             if companyname == "CerebralPalsy":
@@ -193,6 +192,7 @@ except requests.exceptions.RequestException as e:
 
 # Develop BC
 try:
+    bob = 0
     print("Develop bc")
     url = "http://www.develop.bc.ca/find-a-clothing-bin/"
     browser = webdriver.PhantomJS()
@@ -219,7 +219,8 @@ try:
     for j in json_1:
         addBin = Bin("", "", "", "", "", "")
         splitted = j["location"]["address"].split(",")
-        print("doing stuff")
+        print(bob)
+        bob = bob +1
         addBin.address = splitted[0]
         addBin.city = splitted[1]
         addBin.company = "Develop BC"
@@ -228,6 +229,3 @@ try:
     geocode("DevelopBC", developbc)
 except requests.exceptions.RequestException as e:
     print(e)
-
-for item in list:
-    print(item)
