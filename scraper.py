@@ -43,6 +43,18 @@ def geocode (companyname,lst):
             coordinate = item.getCoordinate().split(",")
             pnt = kml.newpoint(name=item.getCompany(), description=item.getContents(), coords=[
                          (coordinate[0], coordinate[1], coordinate[2])])  # lon, lat, optional height
+            if companyname == "salvationArmy":
+                pnt.style.labelstyle.color = 'ff0000ff'  # Red
+            if companyname == "InclusionBC":
+                pnt.style.labelstyle.color = 'ff00ff00'   #Green
+            if companyname == "CerebralPalsy":
+                pnt.style.labelstyle.color = 'ffff0000'  #Blue
+            if companyname == "DiabetesCanada":
+                pnt.style.labelstyle.color = 'ff00ffff'  #Yellow
+            if companyname == "BigBrothers":
+                pnt.style.labelstyle.color = 'ffff00ff'  #Purple
+
+
 
         elif item.getAddress():
             address = item.getAddress()
