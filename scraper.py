@@ -54,6 +54,8 @@ def geocode (companyname,lst):
                 pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
             if companyname == "BigBrothers":
                 pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png' #bigbrothers logo
+            if companyname == "DevelopBC":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
         elif item.getAddress():
             address = item.getAddress()
             geocode_result = gmaps.geocode(address)
@@ -75,6 +77,8 @@ def geocode (companyname,lst):
                 pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
             if companyname == "BigBrothers":
                 pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png' #bigbrothers logo
+            if companyname == "DevelopBC":
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
 
     print("saving file  " + companyname + ".kml")
     kml.save("generatedkml/"+companyname+".kml")
