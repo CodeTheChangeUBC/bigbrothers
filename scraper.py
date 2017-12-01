@@ -77,7 +77,7 @@ def geocode (companyname,lst):
             if companyname == "DiabetesCanada":
                 pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
             if companyname == "BigBrothers":
-                pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png' #bigbrothers logo
+                pnt.style.iconstyle.icon.href = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/bblogo.png' #bigbrothers logo
             if companyname == "DevelopBC":
                 pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
 
@@ -221,7 +221,7 @@ try:
         splitted = j["location"]["address"].split(",")
         print(bob)
         bob = bob +1
-        addBin.address = splitted[0]
+        addBin.address = splitted[0] + "British Columbia, Canada"
         addBin.city = splitted[1]
         addBin.company = "Develop BC"
         list.append(addBin)
