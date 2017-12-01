@@ -192,7 +192,6 @@ except requests.exceptions.RequestException as e:
 
 # Develop BC
 try:
-    bob = 0
     print("Develop bc")
     url = "http://www.develop.bc.ca/find-a-clothing-bin/"
     browser = webdriver.PhantomJS()
@@ -219,8 +218,6 @@ try:
     for j in json_1:
         addBin = Bin("", "", "", "", "", "")
         splitted = j["location"]["address"].split(",")
-        print(bob)
-        bob = bob +1
         addBin.address = splitted[0] + "British Columbia, Canada"
         addBin.city = splitted[1]
         addBin.company = "Develop BC"
