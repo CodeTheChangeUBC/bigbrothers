@@ -519,7 +519,7 @@
         </Placemark>
         <Placemark id="feat_14">
             <name>BC Kids Hospital</name>
-            <description>BC Kids Hospital - Oak Street Entrance Oak St &amp; W 28th Ave, Vancouver, BC V6H, Canada </description>
+            <description>BC Kids Hospital - Oak Street Entrance W 28th Ave &amp; Oak St, Vancouver, BC V6H, Canada </description>
             <styleUrl>#stylesel_12</styleUrl>
             <Point id="geom_12">
                 <coordinates>-123.1276878, 49.246332, 0</coordinates>
@@ -607,7 +607,7 @@
         </Placemark>
         <Placemark id="feat_25">
             <name>BC Kids Hospital</name>
-            <description>City Owned Vacant Land Hastings St &amp; Willingdon Ave, Burnaby, BC V5C, Canada </description>
+            <description>City Owned Vacant Land Willingdon Ave &amp; Hastings St, Burnaby, BC V5C, Canada </description>
             <styleUrl>#stylesel_23</styleUrl>
             <Point id="geom_23">
                 <coordinates>-123.0031033, 49.281019, 0</coordinates>
@@ -631,7 +631,7 @@
         </Placemark>
         <Placemark id="feat_28">
             <name>BC Kids Hospital</name>
-            <description>City Parking Lot Chatham St &amp; Sixth Ave, Richmond, BC V7E, Canada </description>
+            <description>City Parking Lot Sixth Ave &amp; Chatham St, Richmond, BC V7E, Canada </description>
             <styleUrl>#stylesel_26</styleUrl>
             <Point id="geom_26">
                 <coordinates>-123.190291, 49.126427, 0</coordinates>
