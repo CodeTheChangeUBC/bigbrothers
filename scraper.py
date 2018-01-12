@@ -46,40 +46,40 @@ def geocode (companyname,lst):
             pnt = kml.newpoint(name=item.getCompany(), description=item.getContents(), coords=[
                          (coordinate[0], coordinate[1], coordinate[2])])  # lon, lat, optional height
             if companyname == "SalvationArmy":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png' #teal
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/orange-blank.png'
             if companyname == "InclusionBC":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png'
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/pink-blank.png'
             if companyname == "CerebralPalsy":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png' #white
-            if companyname == "DiabetesCanada":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png'
+                # if companyname == "DiabetesCanada":
+                #    pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'    #default red
             if companyname == "BigBrothers":
-                pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png' #bigbrothers logo
+                pnt.style.iconstyle.icon.href = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/bblogo.png'  # bigbrothers logo
             if companyname == "DevelopBC":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'
         elif item.getAddress():
             address = item.getAddress()
             geocode_result = gmaps.geocode(address)
             item.coordinate = str(geocode_result[0]['geometry']['location']['lng']) + ", " + str(
                 geocode_result[0]['geometry']['location']['lat']) + ", 0"
-            # save the returned data
+                # save the returned data
             item.address = geocode_result[0]['formatted_address']
             coordinate = item.getCoordinate().split(",")
             pnt = kml.newpoint(name=item.getCompany(), coords=[
-                         (coordinate[0], coordinate[1], coordinate[2])], description=item.getContents())  # lon, lat, optional height
+                (coordinate[0], coordinate[1], coordinate[2])], description=item.getContents())  # lon, lat, optional height
 
             if companyname == "SalvationArmy":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png'  #teal
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/orange-blank.png'
             if companyname == "InclusionBC":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png'          #yellow
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/pink-blank.png'
             if companyname == "CerebralPalsy":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png' #white
-            if companyname == "DiabetesCanada":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png'
+                # if companyname == "DiabetesCanada":
+                #    pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'    #default red
             if companyname == "BigBrothers":
-                pnt.style.iconstyle.icon.href = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/bblogo.png' #bigbrothers logo
+                pnt.style.iconstyle.icon.href = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/bblogo.png'  # bigbrothers logo
             if companyname == "DevelopBC":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'
 
     print("saving file  " + companyname + ".kml")
     kml.save("generatedkml/"+companyname+".kml")
