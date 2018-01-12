@@ -1,201 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="feat_159">
-        <Style id="stylesel_156">
-            <IconStyle id="substyle_156">
+    <Document id="feat_147">
+        <Style id="stylesel_144">
+            <IconStyle id="substyle_144">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_156">
+                <Icon id="link_144">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_157">
-            <IconStyle id="substyle_157">
+        <Style id="stylesel_145">
+            <IconStyle id="substyle_145">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_157">
+                <Icon id="link_145">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_158">
-            <IconStyle id="substyle_158">
+        <Style id="stylesel_146">
+            <IconStyle id="substyle_146">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_158">
+                <Icon id="link_146">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_159">
-            <IconStyle id="substyle_159">
+        <Style id="stylesel_147">
+            <IconStyle id="substyle_147">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_159">
+                <Icon id="link_147">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_160">
-            <IconStyle id="substyle_160">
+        <Style id="stylesel_148">
+            <IconStyle id="substyle_148">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_160">
+                <Icon id="link_148">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_161">
-            <IconStyle id="substyle_161">
+        <Style id="stylesel_149">
+            <IconStyle id="substyle_149">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_161">
+                <Icon id="link_149">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_162">
-            <IconStyle id="substyle_162">
+        <Style id="stylesel_150">
+            <IconStyle id="substyle_150">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_162">
+                <Icon id="link_150">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_163">
-            <IconStyle id="substyle_163">
+        <Style id="stylesel_151">
+            <IconStyle id="substyle_151">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_163">
+                <Icon id="link_151">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_164">
-            <IconStyle id="substyle_164">
+        <Style id="stylesel_152">
+            <IconStyle id="substyle_152">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_164">
+                <Icon id="link_152">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_165">
-            <IconStyle id="substyle_165">
+        <Style id="stylesel_153">
+            <IconStyle id="substyle_153">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_165">
+                <Icon id="link_153">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_166">
-            <IconStyle id="substyle_166">
+        <Style id="stylesel_154">
+            <IconStyle id="substyle_154">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_166">
+                <Icon id="link_154">
                     <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Placemark id="feat_160">
+        <Placemark id="feat_148">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 7925 Ross St, Vancouver, BC V5X, Canada </description>
-            <styleUrl>#stylesel_156</styleUrl>
-            <Point id="geom_156">
+            <styleUrl>#stylesel_144</styleUrl>
+            <Point id="geom_144">
                 <coordinates>-123.0832319, 49.2119373, 0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_161">
+        <Placemark id="feat_149">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 8969 Montcalm St, Vancouver, BC V6P 4R5, Canada </description>
-            <styleUrl>#stylesel_157</styleUrl>
-            <Point id="geom_157">
+            <styleUrl>#stylesel_145</styleUrl>
+            <Point id="geom_145">
                 <coordinates>-123.1366545, 49.2041718, 0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_162">
+        <Placemark id="feat_150">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 5624 Ladner Trunk Rd, Delta, BC V4K 1X4, Canada </description>
-            <styleUrl>#stylesel_158</styleUrl>
-            <Point id="geom_158">
+            <styleUrl>#stylesel_146</styleUrl>
+            <Point id="geom_146">
                 <coordinates>-123.067094, 49.08941, 0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_163">
+        <Placemark id="feat_151">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 3450 SE Marine Dr, Vancouver, BC V5S 4P8, Canada </description>
-            <styleUrl>#stylesel_159</styleUrl>
-            <Point id="geom_159">
+            <styleUrl>#stylesel_147</styleUrl>
+            <Point id="geom_147">
                 <coordinates>-123.0302001, 49.2078363, 0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_164">
+        <Placemark id="feat_152">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 6901 Elliott St, Vancouver, BC V5S 2N1, Canada </description>
-            <styleUrl>#stylesel_160</styleUrl>
-            <Point id="geom_160">
+            <styleUrl>#stylesel_148</styleUrl>
+            <Point id="geom_148">
                 <coordinates>-123.055716, 49.2213648, 0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_165">
+        <Placemark id="feat_153">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 952-978 W 67th Ave, Vancouver, BC V6P 3Y1, Canada </description>
-            <styleUrl>#stylesel_161</styleUrl>
-            <Point id="geom_161">
+            <styleUrl>#stylesel_149</styleUrl>
+            <Point id="geom_149">
                 <coordinates>-123.129486, 49.2106997, 0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_166">
+        <Placemark id="feat_154">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 32 W 59th Ave, Vancouver, BC V5X 1W9, Canada </description>
-            <styleUrl>#stylesel_162</styleUrl>
-            <Point id="geom_162">
+            <styleUrl>#stylesel_150</styleUrl>
+            <Point id="geom_150">
                 <coordinates>-123.1073563, 49.2166387, 0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_167">
+        <Placemark id="feat_155">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 716 W 49th Ave, Vancouver, BC V5Z 3N4, Canada </description>
-            <styleUrl>#stylesel_163</styleUrl>
-            <Point id="geom_163">
+            <styleUrl>#stylesel_151</styleUrl>
+            <Point id="geom_151">
                 <coordinates>-123.1213106, 49.2260701, 0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_168">
+        <Placemark id="feat_156">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 1640-1660 Eastern Ave, North Vancouver, BC V7L 3G1, Canada </description>
-            <styleUrl>#stylesel_164</styleUrl>
-            <Point id="geom_164">
+            <styleUrl>#stylesel_152</styleUrl>
+            <Point id="geom_152">
                 <coordinates>-123.0707038, 49.3241266, 0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_169">
+        <Placemark id="feat_157">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 308 W 41st Ave, Vancouver, BC V5Y 2S4, Canada </description>
-            <styleUrl>#stylesel_165</styleUrl>
-            <Point id="geom_165">
+            <styleUrl>#stylesel_153</styleUrl>
+            <Point id="geom_153">
                 <coordinates>-123.1129315, 49.2331004, 0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_170">
+        <Placemark id="feat_158">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 565 W 10th Ave, Vancouver, BC V5Z 4J4, Canada </description>
-            <styleUrl>#stylesel_166</styleUrl>
-            <Point id="geom_166">
+            <styleUrl>#stylesel_154</styleUrl>
+            <Point id="geom_154">
                 <coordinates>-123.1170325, 49.2624828, 0</coordinates>
             </Point>
         </Placemark>
