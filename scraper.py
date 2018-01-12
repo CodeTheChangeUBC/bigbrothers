@@ -66,14 +66,13 @@ def geocode (companyname,lst):
             #create a kml point to write to file later
             coordinate = item.getCoordinate().split(",")
             pnt = kml.newpoint(name=item.getCompany(), description=item.getContents(), coords=[(coordinate[0], coordinate[1], coordinate[2])])  
-            setIcon(pnt)
+            setIcon(companyname,pnt)
             csv.write(companyname+","+reverse_geocode_result[0]['formatted_address']+"\n")
 
         elif item.getAddress():
             #take raw address data and get the json dump
-             address = item.getAddress()
-             geocode_result = gmaps.geocode(address)
-           
+            address = item.getAddress()
+            geocode_result = gmaps.geocode(address)
             #save the returned address and coordinate daata
             item.address = geocode_result[0]['formatted_address']
             item.coordinate = str(geocode_result[0]['geometry']['location']['lng']) + ", " + str(geocode_result[0]['geometry']['location']['lat']) + ", 0"
@@ -81,13 +80,13 @@ def geocode (companyname,lst):
             #create a kml point to write to file later
             coordinate = item.getCoordinate().split(",")
             pnt = kml.newpoint(name=item.getCompany(), coords=[(coordinate[0], coordinate[1], coordinate[2])], description=item.getContents())  # lon, lat, optional height
-            setIcon(pnt)
-            csv.write(companyname+","+reverse_geocode_result[0]['formatted_address']+"\n")
-            
+            setIcon(companyname,pnt)
+            csv.write(companyname+","+geocode_result[0]['formatted_address']+"\n")
+
     print("Saving " + companyname + ".kml")
     kml.save("generatedkml/"+companyname+".kml")
     print("Saved" + companyname)
-
+'''
 # Salvation Army Thrift Store
 
 try:
@@ -194,8 +193,7 @@ try:
     geocode("BigBrothers", bigbrothers)
     browser.close()
 except requests.exceptions.RequestException as e:
-    print(e)
-
+    print(e) '''
 # Develop BC
 try:
     print("Develop bc")
@@ -223,7 +221,6 @@ try:
         addBin = Bin("", "", "", "", "", "")
         splitted = j["location"]["address"].split(",")
         addBin.address = splitted[0] + "British Columbia, Canada"
-        addBin.city = splitted[1]
         addBin.company = "Develop BC"
         list.append(addBin)
         developbc.append(addBin)
