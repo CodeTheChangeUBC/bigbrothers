@@ -28,6 +28,9 @@ def openinterface ():
     driver = webdriver.Firefox()
     driver.get(path)
 
+csv = open("bins.csv", "w")
+csv.write("Company Name, Address \n")
+
 # sets the respective icon based on the company name
 def setIcon (companyname,pnt):
     if companyname == "SalvationArmy":
@@ -64,6 +67,7 @@ def geocode (companyname,lst):
             coordinate = item.getCoordinate().split(",")
             pnt = kml.newpoint(name=item.getCompany(), description=item.getContents(), coords=[(coordinate[0], coordinate[1], coordinate[2])])  
             setIcon(pnt)
+            csv.write(companyname+","+reverse_geocode_result[0]['formatted_address']+"\n")
 
         elif item.getAddress():
             #take raw address data and get the json dump
@@ -78,7 +82,8 @@ def geocode (companyname,lst):
             coordinate = item.getCoordinate().split(",")
             pnt = kml.newpoint(name=item.getCompany(), coords=[(coordinate[0], coordinate[1], coordinate[2])], description=item.getContents())  # lon, lat, optional height
             setIcon(pnt)
-
+            csv.write(companyname+","+reverse_geocode_result[0]['formatted_address']+"\n")
+            
     print("Saving " + companyname + ".kml")
     kml.save("generatedkml/"+companyname+".kml")
     print("Saved" + companyname)
