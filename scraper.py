@@ -54,7 +54,7 @@ def geocode (companyname,lst):
                 # if companyname == "DiabetesCanada":
                 #    pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'    #default red
             if companyname == "BigBrothers":
-                pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png'  # bigbrothers logo
+                pnt.style.iconstyle.icon.href = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/bblogo.png'  # bigbrothers logo
             if companyname == "DevelopBC":
                 pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'
         elif item.getAddress():
