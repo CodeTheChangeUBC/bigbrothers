@@ -29,9 +29,12 @@ def openinterface ():
     print(path)
     driver = webdriver.Firefox()
     driver.get(path)
+csv = open("bins.csv", "w")
+csv.write("Company Name, Address \n")
 
 def geocode (companyname,lst):
     kml = simplekml.Kml()
+    
     for item in lst:
         if item.getCoordinate():
             coordinateRaw = item.getCoordinate()
@@ -56,7 +59,9 @@ def geocode (companyname,lst):
             if companyname == "BigBrothers":
                 pnt.style.iconstyle.icon.href = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/bblogo.png'  # bigbrothers logo
             if companyname == "DevelopBC":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'  #white
+            csv.write(companyname+","+reverse_geocode_result[0]['formatted_address']+"\n")
+
         elif item.getAddress():
             address = item.getAddress()
             geocode_result = gmaps.geocode(address)
@@ -79,7 +84,8 @@ def geocode (companyname,lst):
             if companyname == "BigBrothers":
                 pnt.style.iconstyle.icon.href = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/bblogo.png'  # bigbrothers logo
             if companyname == "DevelopBC":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'
+                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'  #white
+            csv.write(companyname+","+geocode_result[0]['formatted_address']+"\n")
 
     print("saving file  " + companyname + ".kml")
     kml.save("generatedkml/"+companyname+".kml")
