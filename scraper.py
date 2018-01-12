@@ -86,7 +86,7 @@ def geocode (companyname,lst):
     print("Saving " + companyname + ".kml")
     kml.save("generatedkml/"+companyname+".kml")
     print("Saved" + companyname)
-'''
+
 # Salvation Army Thrift Store
 
 try:
@@ -193,7 +193,7 @@ try:
     geocode("BigBrothers", bigbrothers)
     browser.close()
 except requests.exceptions.RequestException as e:
-    print(e) '''
+    print(e) 
 # Develop BC
 try:
     print("Develop bc")
