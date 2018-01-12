@@ -34,17 +34,15 @@ csv.write("Company Name, Address \n")
 # sets the respective icon based on the company name
 def setIcon (companyname,pnt):
     if companyname == "SalvationArmy":
-        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png' # teal
+        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/orange-blank.png' #orange
     if companyname == "InclusionBC":
-        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png' # nothing
+        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/pink-blank.png' #pink
     if companyname == "CerebralPalsy":
-        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png' #white
-    if companyname == "DiabetesCanada":
         pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
     if companyname == "BigBrothers":
         pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png' #bigbrothers logo
     if companyname == "DevelopBC":
-        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
+        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'  #white
 
 # gecode 
 def geocode (companyname,lst):
