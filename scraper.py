@@ -64,10 +64,10 @@ def geocode (companyname,lst):
             coordinate = item.getCoordinate().split(",")
             pnt = kml.newpoint(name=item.getCompany(), description=item.getContents(), coords=[(coordinate[0], coordinate[1], coordinate[2])])  
             setIcon(pnt)
-            
+
         elif item.getAddress():
             #take raw address data and get the json dump
-            address = item.getAddress()
+             address = item.getAddress()
              geocode_result = gmaps.geocode(address)
            
             #save the returned address and coordinate daata
@@ -82,8 +82,6 @@ def geocode (companyname,lst):
     print("Saving " + companyname + ".kml")
     kml.save("generatedkml/"+companyname+".kml")
     print("Saved" + companyname)
-
-
 
 # Salvation Army Thrift Store
 
