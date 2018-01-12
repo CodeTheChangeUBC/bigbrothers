@@ -6,15 +6,15 @@
 <script type="text/javascript">
 var layers=[];
 
-var src0 = 'https://raw.githubusercontent.com/holdtightasznee/scrper/master/generatedkml/CerebralPalsy.kml';
-var src1 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/DiabetesCanada.kml';
-var src2 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/InclusionBC.kml';
-var src3 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/SalvationArmy.kml';
-var src4 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/SalvationArmy.kml';
-var src5 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/SalvationArmy.kml';
+var src0 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/CerebralPalsy.kml?dummy='+ (new Date()).getTime();
+var src1 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/DiabetesCanada.kml?dummy='+ (new Date()).getTime();
+var src2 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/InclusionBC.kml?dummy='+ (new Date()).getTime();
+var src3 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/SalvationArmy.kml?dummy='+ (new Date()).getTime();
+var src4 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/DevelopBC.kml?dummy='+ (new Date()).getTime();
+var src5 = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/generatedkml/BigBrothers.kml?dummy='+ (new Date()).getTime();
 
 layers[0] = new  google.maps.KmlLayer(src0,
- {preserveViewport: true});
+{preserveViewport: true});
 
 layers[1] = new google.maps.KmlLayer(src1,
 {preserveViewport: true});
@@ -23,6 +23,12 @@ layers[2] = new google.maps.KmlLayer(src2,
 {preserveViewport: true});
 
 layers[3] = new google.maps.KmlLayer(src3,
+{preserveViewport: true});
+
+layers[4] = new google.maps.KmlLayer(src4,
+{preserveViewport: true});
+
+layers[5] = new google.maps.KmlLayer(src5,
 {preserveViewport: true});
 
 var map;
@@ -54,7 +60,9 @@ function toggleLayers(i)
 Cerebral Palsy <input type="checkbox" id="layer_01" onclick="toggleLayers(0);"/>
 Diabetes Canada <input type="checkbox" id="layer_02" onclick="toggleLayers(1);"/>
 Inclusion BC <input type="checkbox" id="layer_03" onclick="toggleLayers(2);"/>
-Salvatio Army <input type="checkbox" id="layer_04" onclick="toggleLayers(3);"/>
+Salvation Army <input type="checkbox" id="layer_04" onclick="toggleLayers(3);"/>
+DevelopBC <input type="checkbox" id="layer_05" onclick="toggleLayers(4);"/>
+BigBrothers <input type="checkbox" id="layer_06" onclick="toggleLayers(5);"/>
 <div id="map_canvas" style="height:100%; width:100%;"></div>
 </script>
 <script type="text/javascript">

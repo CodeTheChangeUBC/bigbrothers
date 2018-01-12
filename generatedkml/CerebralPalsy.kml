@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="feat_160">
+    <Document id="feat_159">
+        <Style id="stylesel_156">
+            <IconStyle id="substyle_156">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_156">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
         <Style id="stylesel_157">
             <IconStyle id="substyle_157">
                 <colorMode>normal</colorMode>
@@ -101,101 +111,91 @@
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="stylesel_167">
-            <IconStyle id="substyle_167">
-                <colorMode>normal</colorMode>
-                <scale>1</scale>
-                <heading>0</heading>
-                <Icon id="link_167">
-                    <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Placemark id="feat_161">
+        <Placemark id="feat_160">
             <name>Cerebral Palsy Association of British Columbia</name>
             <description> 7925 Ross St, Vancouver, BC V5X, Canada </description>
+            <styleUrl>#stylesel_156</styleUrl>
+            <Point id="geom_156">
+                <coordinates>-123.0832319, 49.2119373, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_161">
+            <name>Cerebral Palsy Association of British Columbia</name>
+            <description> 8969 Montcalm St, Vancouver, BC V6P 4R5, Canada </description>
             <styleUrl>#stylesel_157</styleUrl>
             <Point id="geom_157">
-                <coordinates>-123.0832319, 49.2119373, 0</coordinates>
+                <coordinates>-123.1366545, 49.2041718, 0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_162">
             <name>Cerebral Palsy Association of British Columbia</name>
-            <description> 8969 Montcalm St, Vancouver, BC V6P 4R5, Canada </description>
+            <description> 5624 Ladner Trunk Rd, Delta, BC V4K 1X4, Canada </description>
             <styleUrl>#stylesel_158</styleUrl>
             <Point id="geom_158">
-                <coordinates>-123.1366545, 49.2041718, 0</coordinates>
+                <coordinates>-123.067094, 49.08941, 0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_163">
             <name>Cerebral Palsy Association of British Columbia</name>
-            <description> 5624 Ladner Trunk Rd, Delta, BC V4K 1X4, Canada </description>
+            <description> 3450 SE Marine Dr, Vancouver, BC V5S 4P8, Canada </description>
             <styleUrl>#stylesel_159</styleUrl>
             <Point id="geom_159">
-                <coordinates>-123.067094, 49.08941, 0</coordinates>
+                <coordinates>-123.0302001, 49.2078363, 0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_164">
             <name>Cerebral Palsy Association of British Columbia</name>
-            <description> 3450 SE Marine Dr, Vancouver, BC V5S 4P8, Canada </description>
+            <description> 6901 Elliott St, Vancouver, BC V5S 2N1, Canada </description>
             <styleUrl>#stylesel_160</styleUrl>
             <Point id="geom_160">
-                <coordinates>-123.0302001, 49.2078363, 0</coordinates>
+                <coordinates>-123.055716, 49.2213648, 0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_165">
             <name>Cerebral Palsy Association of British Columbia</name>
-            <description> 6901 Elliott St, Vancouver, BC V5S 2N1, Canada </description>
+            <description> 952-978 W 67th Ave, Vancouver, BC V6P 3Y1, Canada </description>
             <styleUrl>#stylesel_161</styleUrl>
             <Point id="geom_161">
-                <coordinates>-123.055716, 49.2213648, 0</coordinates>
+                <coordinates>-123.129486, 49.2106997, 0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_166">
             <name>Cerebral Palsy Association of British Columbia</name>
-            <description> 952-978 W 67th Ave, Vancouver, BC V6P 3Y1, Canada </description>
+            <description> 32 W 59th Ave, Vancouver, BC V5X 1W9, Canada </description>
             <styleUrl>#stylesel_162</styleUrl>
             <Point id="geom_162">
-                <coordinates>-123.129486, 49.2106997, 0</coordinates>
+                <coordinates>-123.1073563, 49.2166387, 0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_167">
             <name>Cerebral Palsy Association of British Columbia</name>
-            <description> 32 W 59th Ave, Vancouver, BC V5X 1W9, Canada </description>
+            <description> 716 W 49th Ave, Vancouver, BC V5Z 3N4, Canada </description>
             <styleUrl>#stylesel_163</styleUrl>
             <Point id="geom_163">
-                <coordinates>-123.1073563, 49.2166387, 0</coordinates>
+                <coordinates>-123.1213106, 49.2260701, 0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_168">
             <name>Cerebral Palsy Association of British Columbia</name>
-            <description> 716 W 49th Ave, Vancouver, BC V5Z 3N4, Canada </description>
+            <description> 1640-1660 Eastern Ave, North Vancouver, BC V7L 3G1, Canada </description>
             <styleUrl>#stylesel_164</styleUrl>
             <Point id="geom_164">
-                <coordinates>-123.1213106, 49.2260701, 0</coordinates>
+                <coordinates>-123.0707038, 49.3241266, 0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_169">
             <name>Cerebral Palsy Association of British Columbia</name>
-            <description> 1640-1660 Eastern Ave, North Vancouver, BC V7L 3G1, Canada </description>
+            <description> 308 W 41st Ave, Vancouver, BC V5Y 2S4, Canada </description>
             <styleUrl>#stylesel_165</styleUrl>
             <Point id="geom_165">
-                <coordinates>-123.0707038, 49.3241266, 0</coordinates>
+                <coordinates>-123.1129315, 49.2331004, 0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_170">
             <name>Cerebral Palsy Association of British Columbia</name>
-            <description> 308 W 41st Ave, Vancouver, BC V5Y 2S4, Canada </description>
+            <description> 565 W 10th Ave, Vancouver, BC V5Z 4J4, Canada </description>
             <styleUrl>#stylesel_166</styleUrl>
             <Point id="geom_166">
-                <coordinates>-123.1129315, 49.2331004, 0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_171">
-            <name>Cerebral Palsy Association of British Columbia</name>
-            <description> 565 W 10th Ave, Vancouver, BC V5Z 4J4, Canada </description>
-            <styleUrl>#stylesel_167</styleUrl>
-            <Point id="geom_167">
                 <coordinates>-123.1170325, 49.2624828, 0</coordinates>
             </Point>
         </Placemark>
