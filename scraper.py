@@ -1,8 +1,3 @@
-# this file contains all the functions concerned with scraping
-# html table sites
-# google map sites
-# get data
-# misc scraper
 import googlemaps
 import requests
 import os
@@ -12,10 +7,12 @@ from selenium import webdriver
 import time
 import simplekml
 import json
+
 # Google API information
 googleApiKey = "AIzaSyDdyAcausBK2aS8GGTfeubUeKUukWgFasg"
 gmaps = googlemaps.Client(key=googleApiKey)
 
+# Bin Lists to store data
 list = []
 bigbrothers = []
 salvationarmy = []
@@ -24,73 +21,77 @@ cerebralpalsy = []
 diabetescanada = []
 developbc = []
 
+# opens a firefox window with the UI
 def openinterface ():
     path = "file://" +os.path.abspath("test.html")
     print(path)
     driver = webdriver.Firefox()
     driver.get(path)
 
+# sets the respective icon based on the company name
+def setIcon (companyname,pnt):
+    if companyname == "SalvationArmy":
+        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png' # teal
+    if companyname == "InclusionBC":
+        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png' # nothing
+    if companyname == "CerebralPalsy":
+        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png' #white
+    if companyname == "DiabetesCanada":
+        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
+    if companyname == "BigBrothers":
+        pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png' #bigbrothers logo
+    if companyname == "DevelopBC":
+        pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
+
+# gecode 
 def geocode (companyname,lst):
     kml = simplekml.Kml()
     for item in lst:
+        #if the bin object contains a coordintae
         if item.getCoordinate():
+            # take the coordinate data
             coordinateRaw = item.getCoordinate()
             coordinate = coordinateRaw.split(",")
-            reverse_geocode_result = gmaps.reverse_geocode(
-                (coordinate[1], coordinate[0]))
-            item.coordinate = str(reverse_geocode_result[0]['geometry']['location']['lng']) + ", " + str(
-                reverse_geocode_result[0]['geometry']['location']['lat']) + ", 0"
-            # save the returned data
+
+            # grab the JSON dump
+            reverse_geocode_result = gmaps.reverse_geocode((coordinate[1], coordinate[0]))
+
+            #look through the JSON dump to find the formatted_address and coordiante
             item.address = reverse_geocode_result[0]['formatted_address']
+            item.coordinate = str(reverse_geocode_result[0]['geometry']['location']['lng']) + ", " + str(reverse_geocode_result[0]['geometry']['location']['lat']) + ", 0"
+
+            #create a kml point to write to file later
             coordinate = item.getCoordinate().split(",")
-            pnt = kml.newpoint(name=item.getCompany(), description=item.getContents(), coords=[
-                         (coordinate[0], coordinate[1], coordinate[2])])  # lon, lat, optional height
-            if companyname == "SalvationArmy":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png' #teal
-            if companyname == "InclusionBC":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png'
-            if companyname == "CerebralPalsy":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png' #white
-            if companyname == "DiabetesCanada":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
-            if companyname == "BigBrothers":
-                pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png' #bigbrothers logo
-            if companyname == "DevelopBC":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
+            pnt = kml.newpoint(name=item.getCompany(), description=item.getContents(), coords=[(coordinate[0], coordinate[1], coordinate[2])])  
+            setIcon(pnt)
+            
         elif item.getAddress():
+            #take raw address data and get the json dump
             address = item.getAddress()
-            geocode_result = gmaps.geocode(address)
-            item.coordinate = str(geocode_result[0]['geometry']['location']['lng']) + ", " + str(
-                geocode_result[0]['geometry']['location']['lat']) + ", 0"
-            # save the returned data
+             geocode_result = gmaps.geocode(address)
+           
+            #save the returned address and coordinate daata
             item.address = geocode_result[0]['formatted_address']
+            item.coordinate = str(geocode_result[0]['geometry']['location']['lng']) + ", " + str(geocode_result[0]['geometry']['location']['lat']) + ", 0"
+
+            #create a kml point to write to file later
             coordinate = item.getCoordinate().split(",")
-            pnt = kml.newpoint(name=item.getCompany(), coords=[
-                         (coordinate[0], coordinate[1], coordinate[2])], description=item.getContents())  # lon, lat, optional height
+            pnt = kml.newpoint(name=item.getCompany(), coords=[(coordinate[0], coordinate[1], coordinate[2])], description=item.getContents())  # lon, lat, optional height
+            setIcon(pnt)
 
-            if companyname == "SalvationArmy":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png'  #teal
-            if companyname == "InclusionBC":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png'          #yellow
-            if companyname == "CerebralPalsy":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png' #white
-            if companyname == "DiabetesCanada":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/blu-blank.png' #blue
-            if companyname == "BigBrothers":
-                pnt.style.iconstyle.icon.href = 'https://raw.githubusercontent.com/holdtightasznee/scraper/master/bblogo.png' #bigbrothers logo
-            if companyname == "DevelopBC":
-                pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/grn-blank.png'  #green
-
-    print("saving file  " + companyname + ".kml")
+    print("Saving " + companyname + ".kml")
     kml.save("generatedkml/"+companyname+".kml")
-    print("SAVED")
+    print("Saved" + companyname)
+
+
 
 # Salvation Army Thrift Store
+
 try:
     print("Salvation Army")
     url1 = "https://www.thriftstore.ca/british-columbia/drop-bin-locations"
     r1 = requests.get(url1)
-    print("Salvation army request")
+
     soup1 = BeautifulSoup(r1.content, "lxml")
     filtered1 = soup1.find_all("tr")
     for td in filtered1:
@@ -104,13 +105,15 @@ try:
             elif (count == 1):
                 addBin.company = value
             elif (count == 2):
+                #appending British Columbia, Canada to elimate united states addresses
                 addBin.address = value + "British Columbia, Canada"
             else:
                 addBin.city = value
             count += 1
         list.append(addBin)
         salvationarmy.append(addBin)
-    geocode("SalvationArmy", salvationarmy)
+
+    geocode("SalvationArmy", salvationarmy) 
 except requests.exceptions.RequestException as e:
     print(e)
 
@@ -198,21 +201,19 @@ try:
     browser.get(url)
     time.sleep(1)
     html = browser.page_source
-
     soup = BeautifulSoup(html, "lxml")
     individual_results = soup.find_all("script")
 
     for result in individual_results:
        resultString = result.string
-       #print(resultString)
        search = 'mapData'
        if resultString is not None:
         if search in resultString:
             addressesString = resultString
+
     startString = addressesString.find('[')
     endString = addressesString.rfind(']')
     jsonString = addressesString[startString:endString +1]
-
     json_1 = json.loads(jsonString)
 
     for j in json_1:
