@@ -43,6 +43,8 @@ def setIcon (companyname,pnt):
         pnt.style.iconstyle.icon.href = 'https://github.com/holdtightasznee/scraper/raw/master/bblogo.png' #bigbrothers logo
     if companyname == "DevelopBC":
         pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/paddle/wht-blank.png'  #white
+    if companyname == "DiabetesCanada":
+        pnt.style.iconstyle.icon.href = "http://maps.google.com/mapfiles/kml/paddle/red-blank.png" #red
 
 # gecode 
 def geocode (companyname,lst):
