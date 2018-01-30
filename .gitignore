@@ -112,3 +112,6 @@ venv.bak/
 
 # Don't include the KML
 generatedkml/
+
+# Ignore retry files
+*.retry
