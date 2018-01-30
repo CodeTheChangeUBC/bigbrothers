@@ -105,3 +105,10 @@ venv.bak/
 
 # vim
 *.swp
+
+# virtual env
+.virtualenv/
+.env/
+
+# Don't include the KML
+generatedkml/

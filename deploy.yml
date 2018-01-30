@@ -1,0 +1,112 @@
+---
+# This is the ansible config for deploying the app
+
+- hosts: all
+  tasks:
+    - name: Create www-data group
+      group: name=www-data state=present
+
+    - name: Create www-data user
+      user:
+        name: www-data
+        group: www-data
+        createhome: no
+        comment: ""
+
+    - name: Create /srv directory
+      file:
+        state: directory
+        dest: /srv
+        owner: www-data
+        group: www-data
+        mode: 0755
+
+    - name: Install git
+      apt: version=ansible name=git state=latest
+      when: ansible_os_family|lower == "debian"
+
+    - name: Clone repo
+      git:
+        dest: /srv/bigbrothers
+        repo: https://github.com/CodeTheChangeUBC/bigbrothers.git
+        umask: '022'
+      become: yes
+      become_user: www-data
+
+    - name: Install Nginx on Ubuntu/Debian
+      apt: name=nginx state=latest
+      when: ansible_os_family|lower == "debian"
+
+    - name: Copy the nginx config file
+      file: state=absent dest=/etc/nginx/sites-available/default
+
+    - name: Ensure service running and enabled
+      service: name=nginx state=started enabled=true
+
+    - name: Copy the main config file
+      copy:
+        content: "{{ lookup('file', './nginx/nginx.conf') }}"
+        dest: /etc/nginx/nginx.conf
+        owner: root
+        group: root
+        mode: 0644
+      notify:
+        - restart nginx
+
+    - name: Copy the site config file
+      copy:
+        content: "{{ lookup('file', './nginx/bigbrothers.conf') }}"
+        dest: /etc/nginx/sites-available/bigbrothers.conf
+        owner: root
+        group: root
+        mode: 0644
+      notify:
+        - restart nginx
+
+    - name: Link into sites-enabled
+      file:
+        state: link
+        src: /etc/nginx/sites-available/bigbrothers.conf
+        dest: /etc/nginx/sites-enabled/bigbrothers.conf
+
+    - name: Install {{ item }}
+      apt: name={{ item }} state=latest
+      with_items:
+        - python
+        - python3
+        - python-pip
+        - python3-pip
+      when: ansible_os_family|lower == "debian"
+
+    - name: Pip operations
+      block:
+        - name: Upgrade pip (python2)
+          command: pip install --upgrade pip
+        - name: Upgrade pip (python3)
+          command: pip3 install --upgrade pip
+        - name: Install virtualenv (python2)
+          command: pip install --upgrade virtualenv
+        - name: Install virtualenv (python3)
+          command: pip3 install --upgrade virtualenv
+
+    - name: Install dependencies
+      pip:
+        requirements: /srv/bigbrothers/requirements.txt
+        virtualenv: /srv/bigbrothers/.env
+      become: yes
+      become_user: www-data
+
+    - cron:
+        name: "Generate KML once a day"
+        special_time: daily
+        job: "/srv/bigbrothers/generatekml.sh"
+        user: www-data
+
+    - name: Initial run generating KML
+      shell: /srv/bigbrothers/generatekml.sh
+      become: yes
+      become_user: www-data
+
+  handlers:
+    - name: restart nginx
+      service: name=nginx state=restarted

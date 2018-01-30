@@ -63,7 +63,7 @@ def geocode (companyname,lst):
 
             #create a kml point to write to file later
             coordinate = item.getCoordinate().split(",")
-            pnt = kml.newpoint(name=item.getCompany(), description=item.getContents(), coords=[(coordinate[0], coordinate[1], coordinate[2])])  
+            pnt = kml.newpoint(name=item.getCompany(), description=item.getContents(), coords=[(coordinate[0], coordinate[1], coordinate[2])])
             setIcon(companyname,pnt)
             csv.write(companyname+","+reverse_geocode_result[0]['formatted_address']+"\n")
 

@@ -1,0 +1,4 @@
+# If you have lxd install (`sudo snap install lxd && sudo lxd init` on Ubuntu)
+# you can test this against a container named bigbrothers
+
+bigbrothers ansible_connection=lxd
