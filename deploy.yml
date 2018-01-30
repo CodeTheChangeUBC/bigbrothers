@@ -22,7 +22,7 @@
         mode: 0755
 
     - name: Install git
-      apt: version=ansible name=git state=latest
+      apt: name=git state=latest
       when: ansible_os_family|lower == "debian"
 
     - name: Clone repo
@@ -30,6 +30,7 @@
         dest: /srv/bigbrothers
         repo: https://github.com/CodeTheChangeUBC/bigbrothers.git
         umask: '022'
+        version: ansible
       become: yes
       become_user: www-data
 
