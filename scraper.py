@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import googlemaps
 import requests
 import os
