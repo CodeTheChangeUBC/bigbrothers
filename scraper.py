@@ -115,7 +115,7 @@ try:
         list.append(addBin)
         salvationarmy.append(addBin)
 
-    geocode("SalvationArmy", salvationarmy) 
+    geocode("SalvationArmy", salvationarmy)
 except requests.exceptions.RequestException as e:
     print(e)
 
