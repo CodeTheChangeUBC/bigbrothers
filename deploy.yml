@@ -94,21 +94,22 @@
       block:
         - apt: name={{ item }} state=latest
           with_items:
+            - firefox
+            - xvfb
             - build-essential
             - chrpath
             - libssl-dev
             - libxft-dev
             - libfreetype6-dev
             - libfontconfig1-dev
-        - unarchive:
-            src: "https://github.com/ariya/phantomjs/archive/2.1.3.tar.gz"
-            remote_src: yes
-            dest: /usr/local/share
-            creates: /usr/local/share/phantomjs-2.1.3-linux-x86_64
         - file:
-            state: link
-            src: /usr/local/share/phantomjs-2.1.3-linux-x86_64/bin/phantomjs
-            dest: /usr/local/bin
+            state: touch
+            dest: /usr/local/bin/phantomjs
+            mode: 0755
+        - fetch:
+            src: "https://github.com/ariya/phantomjs/releases/download/2.1.3/phantomjs"
+            dest: /usr/local/bin/phantomjs
+            fail_on_missing: no
 
     - name: Install dependencies
       pip:

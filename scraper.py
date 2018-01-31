@@ -24,7 +24,7 @@ diabetescanada = []
 developbc = []
 
 # opens a firefox window with the UI
-def openinterface ():
+def openinterface():
     path = "file://" +os.path.abspath("test.html")
     print(path)
     driver = webdriver.Firefox()
@@ -180,7 +180,8 @@ except requests.exceptions.RequestException as e:
 try:
     print("Big Brothers")
     url = "https://www.bigbrothersvancouver.com/clothing-donation/donation-bins/"
-    browser = webdriver.PhantomJS()
+    browser = webdriver.Firefox()
+    # browser = webdriver.PhantomJS()
     browser.get(url)
     time.sleep(1)
     html = browser.page_source
@@ -203,7 +204,8 @@ except requests.exceptions.RequestException as e:
 try:
     print("Develop bc")
     url = "http://www.develop.bc.ca/find-a-clothing-bin/"
-    browser = webdriver.PhantomJS()
+    browser = webdriver.Firefox()
+    # browser = webdriver.PhantomJS()
     browser.get(url)
     time.sleep(1)
     html = browser.page_source
