@@ -7,7 +7,6 @@ else
 fi
 
 function cleanup {
-    rm -rf $DIR/bins.csv
     kill -9 "$XVFB_PID"
 }
 
