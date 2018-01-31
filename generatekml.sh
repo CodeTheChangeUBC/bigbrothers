@@ -1,7 +1,13 @@
 #!/bin/bash
 
+if [[ -z "$1" ]]; then
+    DIR="$1"
+else
+    DIR='/srv/bigbrothers'
+fi
+
 function cleanup {
-    rm -rf /srv/bigbrothers/bins.csv
+    rm -rf $DIR/bins.csv
     kill -9 "$XVFB_PID"
 }
 
@@ -11,7 +17,7 @@ xvfb :10 -ac &
 XVFB_PID="$!"
 
 export DISPLAY=:10
-cd /srv/bigbrothers
+cd $DIR
 source .env/bin/activate
 ./scraper.py
 
