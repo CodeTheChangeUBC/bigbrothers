@@ -84,7 +84,7 @@
         - name: Install virtualenv (python2)
           command: pip install --upgrade virtualenv
 
-    - name: Install PhantomJS
+    - name: Headless browsers \/ KML Generation Tools
       block:
         - apt: name={{ item }} state=latest
           with_items:
@@ -96,14 +96,12 @@
             - libxft-dev
             - libfreetype6-dev
             - libfontconfig1-dev
-        - file:
-            state: touch
-            dest: /usr/local/bin/phantomjs
-            mode: 0755
-        - fetch:
-            src: "https://github.com/ariya/phantomjs/releases/download/2.1.3/phantomjs"
-            dest: /usr/local/bin/phantomjs
-            fail_on_missing: no
+        - unarchive:
+            src: "https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-linux64.tar.gz"
+            dest: /usr/local/bin
+            remote_src: yes
+            creates: /usr/local/bin/geckodriver
+
 
     - name: Install dependencies
       pip:
