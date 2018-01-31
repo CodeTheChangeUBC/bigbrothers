@@ -32,6 +32,8 @@ def openinterface ():
 
 csv = open("bins.csv", "w")
 csv.write("Company Name, Address \n")
+if not os.path.isdir(os.path.join(os.getcwd(), "generatedkml")):
+    os.mkdir("./generatedkml")
 
 # sets the respective icon based on the company name
 def setIcon (companyname,pnt):
@@ -84,7 +86,9 @@ def geocode (companyname,lst):
             csv.write(companyname+","+geocode_result[0]['formatted_address']+"\n")
 
     print("Saving " + companyname + ".kml")
-    kml.save("generatedkml/"+companyname+".kml")
+    path = "generatedkml/" + companyname + ".kml"
+    open(path, "a").close()
+    kml.save(path)
     print("Saved" + companyname)
 
 # Salvation Army Thrift Store
@@ -193,7 +197,8 @@ try:
     geocode("BigBrothers", bigbrothers)
     browser.close()
 except requests.exceptions.RequestException as e:
-    print(e) 
+    print(e)
+
 # Develop BC
 try:
     print("Develop bc")
