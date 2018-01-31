@@ -1,0 +1,5 @@
+
+- src: geerlingguy.nginx
+  version: 2.5.0
+- src: thefinn93.letsencrypt
+  version: 12e16bb92c6083697ab99c8ec6ac1ce656eac964
