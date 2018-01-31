@@ -13,7 +13,7 @@ function cleanup {
 
 trap cleanup EXIT
 
-xvfb :10 -ac &
+Xvfb :10 -ac &
 XVFB_PID="$!"
 
 export DISPLAY=:10
