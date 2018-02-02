@@ -83,7 +83,7 @@ def geocode (companyname,lst):
             coordinate = item.getCoordinate().split(",")
             pnt = kml.newpoint(name=item.getCompany(), coords=[(coordinate[0], coordinate[1], coordinate[2])], description=item.getContents())  # lon, lat, optional height
             setIcon(companyname,pnt)
-            content = json.dump(geocode_result[0]['formatted_address'])
+            content = json.dumps(geocode_result[0]['formatted_address'])
             csv.write(companyname+","+content+"\n")
 
     print("Saving " + companyname + ".kml")
